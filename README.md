@@ -1,6 +1,6 @@
 <div style="display:flex; justify-content:space-around;">
 <div style="text-align:center;">
-<img src="pic/tekito2.png" alt="alt text" width="170">
+<img src="pic/tekito1,2.png" alt="alt text" width="170">
 <p>
 </br>
 スカラービームの例
