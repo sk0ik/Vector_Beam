@@ -6,4 +6,4 @@ aaaaaa
 
 aaaa $e^a$ aaaaaa
 
-![ポアンカレ球](poincare/s.md)
+[ポアンカレ球](poincare/s.md)
