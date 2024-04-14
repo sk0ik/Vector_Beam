@@ -5,3 +5,5 @@ aaaaaa
 </div>
 
 aaaa $e^a$ aaaaaa
+
+![ポアンカレ球](poincare/s.md)
