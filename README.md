@@ -1,1 +1,1 @@
-![tekito1,2]("pic/tekito1.png")
+![tekito1,2]("pic/tekito2.png")
