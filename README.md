@@ -2,4 +2,4 @@
 <img src="pic/tekito1,2.png" alt="alt text" width="250">
 </div>
 
-![aa]("pic/tekito1,2.png")
+![tekito1,2]("pic/tekito1,2.png")
