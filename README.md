@@ -3,3 +3,5 @@
 </div>
 
 ![tekito1,2]("pic/tekito1,2.png")
+
+"pic/tekito1,2.png"
