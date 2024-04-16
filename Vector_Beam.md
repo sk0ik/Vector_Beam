@@ -1,4 +1,4 @@
-![論文のリスト](sk0ik/Vector_Beam_List/README.md)
+![論文のリスト](Vector_Beam_List/README.md)
 
 - [これ書くときの注意（主に数式書くとき）](#これ書くときの注意主に数式書くとき)
 - [雑メモ](#雑メモ)
