@@ -1988,6 +1988,37 @@ $$
 
 を得る。
 
+## ベクトルビームの導出もう少し詳しく
+
+マクスウェル方程式から得られる電場に関する偏微分方程式
+
+$$
+\nabla \cdot \nabla{E} = - k ^2 E
+$$
+
+スカラー場の時は **勾配を取って発散を取るという演算の固有関数** だがベクトル場の時
+
+$$
+\nabla \times (\nabla \times \vec{E}) = k^2 \vec{E}
+$$
+
+のように **回転を２回とるという演算の固有関数** となる。これはラプラシアンが
+
+$$
+\nabla ^2 \vec{E} = \nabla (\nabla \cdot \vec{E})
+-\nabla \times (\nabla \times \vec{E})
+$$
+
+となり、今は真空中を考えているので　$\nabla \cdot \vec{E} = 0$　より
+
+$$
+\nabla ^2 \vec{E}
+=
+-\nabla \times (\nabla \times \vec{E})
+$$
+
+であることに起因する。
+
 ## ベッセル関数
 
 ## ベクトルベッセルビーム
