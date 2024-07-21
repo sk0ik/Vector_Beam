@@ -1,3 +1,5 @@
-# ベクトルビームというものについて書きます(未完成かつ随時更新)
+# ベクトルビームの論文のリスト
 
-[ここ](https://github.com/sk0ik/Vector_Beam/blob/main/Vector_Beam.md)にまとめます.
+ベクトルビームに関係する本や論文は↓で見れます.
+
+[論文のリスト](https://github.com/sk0ik/Vector_Beam_Paper_List/blob/main/README.md)
