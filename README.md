@@ -1,4 +1,4 @@
-[一番下に行く](#under)
+[↓](#under)
 
 <a id="top"></a>
 ---
@@ -9,7 +9,7 @@
 
 [ベクトルビームについて](https://github.com/sk0ik/Vector_Beam/blob/main/Introduction.md)
 
-[一番上に戻る](#top)
-
 <a id="under"></a>
 ---
+
+[↑](#top)
