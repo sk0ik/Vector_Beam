@@ -5,9 +5,9 @@
 
 # 目次
 
-1. [ベクトルビームに関係する本や論文](https://github.com/sk0ik/Vector_Beam_Paper_List/blob/main/README.md)
+1. [関係する本や論文](https://github.com/sk0ik/Vector_Beam_Paper_List/blob/main/README.md)
 
-2. [ベクトルビームについて](https://github.com/sk0ik/Vector_Beam/blob/main/Introduction.md)
+2. [概要](https://github.com/sk0ik/Vector_Beam/blob/main/Introduction.md)
 
 3. [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/Jones_vector_Jones_matrix.md)
 
@@ -19,11 +19,11 @@
 
 7. [ベクトルビーム](https://github.com/sk0ik/Vector_Beam/blob/main/Vector_beam.md)
 
-8. [Gouy位相](https://github.com/sk0ik/Vector_Beam/blob/main/Gouy_phase.md)
+8. [実験方法](https://github.com/sk0ik/Vector_Beam/blob/main/Experiment.md)
 
 9. [評価方法](https://github.com/sk0ik/Vector_Beam/blob/main/Evaluation.md)
 
-10. [実験方法](https://github.com/sk0ik/Vector_Beam/blob/main/Experiment.md)
+10. [Gouy位相](https://github.com/sk0ik/Vector_Beam/blob/main/Gouy_phase.md)
 
 11. [通信](https://github.com/sk0ik/Vector_Beam/blob/main/Communication.md)
 
