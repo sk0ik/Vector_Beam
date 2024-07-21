@@ -29,7 +29,7 @@
 
 12. [スピン](https://github.com/sk0ik/Vector_Beam/blob/main/File/Spin.md)
 
-13. [機械学習](https://github.com/sk0ik/Vector_Beam/blob/main/File.Machine_learning.md)
+13. [機械学習](https://github.com/sk0ik/Vector_Beam/blob/main/File/Machine_learning.md)
 
 14. [メモ](https://github.com/sk0ik/Vector_Beam/blob/main/File/Draft.md)
 
