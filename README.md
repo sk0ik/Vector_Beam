@@ -5,7 +5,7 @@
 
 # 目次
 
-1. [関係する本や論文](https://github.com/sk0ik/001.Papers)
+1. [関係する本や論文](https://github.com/sk0ik/Vector_Beam/blob/main/File/001.Papers.md)
 
 2. [概要](https://github.com/sk0ik/Vector_Beam/blob/main/File/002.Introduction.md)
 
