@@ -11,9 +11,9 @@
 
 3. [はじめに](https://github.com/sk0ik/Vector_Beam/blob/main/File/003.Introduction.md)
 
-4. [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/Jones_Vector_Jones_Matrix.md)
+4. [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation)
 
-5. [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Helmholz_Equation.md)
+5. [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md)
 
 6. [スカラービーム](https://github.com/sk0ik/Vector_Beam/blob/main/File/006.Scalar_Beam.md)
 
