@@ -1,3 +1,11 @@
+<!-- $$
+\begin{aligned}
+\begin{bmatrix}
+
+\end{bmatrix}
+\end{aligned}
+$$ -->
+
 [ページ下部へ](#under)
 
 <a id="top"></a>
@@ -9,7 +17,7 @@
 
 2. [応用分野](https://github.com/sk0ik/Vector_Beam/blob/main/File/002.Application.md)
 
-3. [光について](https://github.com/sk0ik/Vector_Beam/blob/main/File/003.Introduction.md)
+3. [波としての光](https://github.com/sk0ik/Vector_Beam/blob/main/File/003.Introduction.md)
 
 4. [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation.md)
 
