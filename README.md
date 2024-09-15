@@ -19,6 +19,8 @@ $$ -->
 
 ## [波としての光](https://github.com/sk0ik/Vector_Beam/blob/main/File/003.Introduction.md)
 
+↓準備中↓
+
 ## [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation.md)
 
 ## [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md)
@@ -31,15 +33,9 @@ $$ -->
 
 ## [評価方法](https://github.com/sk0ik/Vector_Beam/blob/main/File/009.Evaluation.md)
 
-<!-- 10. [Gouy位相](https://github.com/sk0ik/Vector_Beam/blob/main/File/010.Gouy_Phase.md)
+<!-- 1.  [機械学習](https://github.com/sk0ik/Vector_Beam/blob/main/File/013Machine_Learning.md)
 
-11. [通信](https://github.com/sk0ik/Vector_Beam/blob/main/File/011Communication.md)
-
-12. [スピン](https://github.com/sk0ik/Vector_Beam/blob/main/File/012.Spin.md)
-
-13. [機械学習](https://github.com/sk0ik/Vector_Beam/blob/main/File/013Machine_Learning.md)
-
-14. [メモ](https://github.com/sk0ik/Vector_Beam/blob/main/File/999.Draft.md) -->
+1.  [メモ](https://github.com/sk0ik/Vector_Beam/blob/main/File/999.Draft.md) -->
 
 <a id="under"></a>
 
