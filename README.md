@@ -21,17 +21,29 @@ $$ -->
 
 ↓準備中↓
 
-## [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation.md)
+## ヘルムホルツ方程式
 
-## [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md)
+<!-- ## [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation.md) -->
 
-## [スカラービーム](https://github.com/sk0ik/Vector_Beam/blob/main/File/006.Scalar_Beam.md)
+## ジョーンズ行列とジョーンズベクトル
 
-## [ベクトルビーム](https://github.com/sk0ik/Vector_Beam/blob/main/File/007.Vector_Beam.md)
+<!-- ## [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md) -->
 
-## [実験方法](https://github.com/sk0ik/Vector_Beam/blob/main/File/008.Experiment.md)
+## スカラービーム
 
-## [評価方法](https://github.com/sk0ik/Vector_Beam/blob/main/File/009.Evaluation.md)
+<!-- ## [スカラービーム](https://github.com/sk0ik/Vector_Beam/blob/main/File/006.Scalar_Beam.md) -->
+
+## ベクトルビーム
+
+<!-- ## [ベクトルビーム](https://github.com/sk0ik/Vector_Beam/blob/main/File/007.Vector_Beam.md) -->
+
+## 実験方法
+
+<!-- ## [実験方法](https://github.com/sk0ik/Vector_Beam/blob/main/File/008.Experiment.md) -->
+
+## 評価方法
+
+<!-- ## [評価方法](https://github.com/sk0ik/Vector_Beam/blob/main/File/009.Evaluation.md) -->
 
 <!-- 1.  [機械学習](https://github.com/sk0ik/Vector_Beam/blob/main/File/013Machine_Learning.md)
 
