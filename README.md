@@ -11,7 +11,7 @@ $$ -->
 
 # 目次
 
-## [研究の概要](https://github.com/sk0ik/Vector_Beam/blob/main/File/001.Papers.md)
+## [研究の概要](https://github.com/sk0ik/Vector_Beam/blob/main/File/000.Summary.md)
 
 ↓内容をもっと詳しく(随時更新)↓
 
