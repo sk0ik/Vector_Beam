@@ -25,7 +25,7 @@ $$ -->
 
 ## [研究の概要](https://github.com/sk0ik/Vector_Beam/blob/main/File/000.Summary.md)
 
-↓もっと詳しい内容(随時更新)↓
+↓もっと詳しい内容↓
 
 ## [関係する本や論文](https://github.com/sk0ik/Vector_Beam/blob/main/File/001.Papers.md)
 
