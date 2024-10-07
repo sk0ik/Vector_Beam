@@ -29,19 +29,17 @@ $$ -->
 
 ## [関係する本や論文](https://github.com/sk0ik/Vector_Beam/blob/main/File/001.Papers.md)
 
-## [応用分野](https://github.com/sk0ik/Vector_Beam/blob/main/File/002.Application.md)
+## 応用分野
+
+<!-- ## [応用分野](https://github.com/sk0ik/Vector_Beam/blob/main/File/002.Application.md) -->
 
 ## [波としての光](https://github.com/sk0ik/Vector_Beam/blob/main/File/003.Introduction.md)
-
-↓準備中↓
 
 ## ヘルムホルツ方程式
 
 <!-- ## [ヘルムホルツ方程式](https://github.com/sk0ik/Vector_Beam/blob/main/File/004.Helmholtz_Equation.md) -->
 
-## ジョーンズ行列とジョーンズベクトル
-
-<!-- ## [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md) -->
+## [ジョーンズベクトルとジョーンズ行列](https://github.com/sk0ik/Vector_Beam/blob/main/File/005.Jones_Vector_Jones_Matrix.md)
 
 ## スカラービーム
 
