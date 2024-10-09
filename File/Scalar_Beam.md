@@ -48,7 +48,7 @@ $$
 
 $$
 E _ {x}=E _ {x0} \sqrt{1-\sin^2{(kz-\omega t)}} \newline
-\therefore \sin{(kz-\omega t)}=\sqrt{1-\frac{E _ x}{E _ {x0}}^2}
+\sin{(kz-\omega t)}=\sqrt{1-\frac{E _ x}{E _ {x0}}^2}
 $$
 
 となるので結局
