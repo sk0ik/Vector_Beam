@@ -47,7 +47,7 @@ $$
 となります.またx成分をsinで表すと
 
 $$
-E _ {x}=E _ {x0} \sqrt{1-\sin^2{(kz-\omega t)}} \newline
+E _ {x}=E _ {x0} \sqrt{1-\sin^2{(kz-\omega t)}} \\
 \sin{(kz-\omega t)}=\sqrt{1-\frac{E _ x}{E _ {x0}}^2}
 $$
 
