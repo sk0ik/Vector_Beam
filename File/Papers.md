@@ -2,10 +2,15 @@
 
 目次
 
-- [教科書](#教科書)
+<details>
+  <summary>教科書</summary>
+
     - [光学-谷田貝豊彦(2017)](#光学-谷田貝豊彦2017)
     - [例題で学ぶ光学入門-谷田貝豊彦(2010)](#例題で学ぶ光学入門-谷田貝豊彦2010)
     - [はじめての光学-川田善正(2014)](#はじめての光学-川田善正2014)
+
+</details>
+
 - [論文](#論文)
   - [レビュー論文](#レビュー論文)
     - [Cylindrical vector beams: from mathematical concepts to applications(2009)](#cylindrical-vector-beams-from-mathematical-concepts-to-applications2009)
