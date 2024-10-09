@@ -140,15 +140,15 @@
 # 教科書
 ベクトルビームは光の偏光という特徴を扱うのでそのあたりが載っている教科書を挙げますが,ほとんどの光の教科書には偏光のことは載ってると思うのでその中でも自分が読んだ教科書を紹介します.
 
-### [光学-谷田貝豊彦(2017)](https://www.asakura.co.jp/detail.php?book_code=13121)
+### [光学-谷田貝豊彦](https://www.asakura.co.jp/detail.php?book_code=13121)(2017)
 
 - 偏光に限らず光の勉強を始める際,もしくは光をもっと深くしたときに良い本だと思います.ただ分厚く,数式が多いのでざっくり理解したい場合は不向きかもしれません.
 
-### [例題で学ぶ光学入門-谷田貝豊彦(2010)](https://www.morikita.co.jp/books/mid/015441)
+### [例題で学ぶ光学入門-谷田貝豊彦](https://www.morikita.co.jp/books/mid/015441)(2010)
 
 - 先ほどと同じ著者の本ですがこっちの方が薄いのでとっつきやすいです.
 
-### [はじめての光学-川田善正(2014)](https://www.kspub.co.jp/book/detail/1532878.html)
+### [はじめての光学-川田善正](https://www.kspub.co.jp/book/detail/1532878.html)(2014)
 
 - この本も光を学ぶときにとても分かりやすい本だと思います.p205-212に偏光を考慮した平面波をレンズによって集光したときのシミュレーションの方法が載っています.
 
@@ -160,27 +160,27 @@
 
 ここではそれまでの知見をまとめた論文(レビュー論文)を紹介します.
 
-### [Cylindrical vector beams: from mathematical concepts to applications(2009)](https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&id=176226)
+### [Cylindrical vector beams: from mathematical concepts to applications](https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&id=176226)(2009)
 
 - ベクトルビームの導出から原理,応用まで広く載っています.この論文で引用している論文を読むことが多かったです.
 
-### [Vector Beams for Fundamental Physics and Applications(2016)](https://academicworks.cuny.edu/gc_etds/1267/)
+### [Vector Beams for Fundamental Physics and Applications](https://academicworks.cuny.edu/gc_etds/1267/)(2016)
 
 - 最近でた論文ですので最新の研究内容が載っています.偏光状態はポアンカレ球とよばれる球の表面の1点で表すことができるんですがこれをベクトルビームまで拡張したものが高次元ポアンカレ球というものでこれが紹介されていました.
 
-### [Vectorial optical fields: recent advances and future prospects(2017)](https://www.sciencedirect.com/science/article/abs/pii/S2095927317306333)
+### [Vectorial optical fields: recent advances and future prospects](https://www.sciencedirect.com/science/article/abs/pii/S2095927317306333)(2017)
 
 - 題名の通りベクトルビームの応用例が多く載っています.ベクトルビームの有用性を知るという意味ではこれを最初に読んでもよいかもしれません.
 
-### [Orbital angular momentum: origins, behavior and applications(2011)](https://opg.optica.org/aop/abstract.cfm?uri=aop-3-2-161)
+### [Orbital angular momentum: origins, behavior and applications](https://opg.optica.org/aop/abstract.cfm?uri=aop-3-2-161)(2011)
 
 - 光渦という光がらせん状の位相をもつビームについて紹介しています.偏光と位相という2つの自由度を理解するために読みました.
 
-### [Creation and detection of optical modes with spatial light modulators(2016)](https://opg.optica.org/aop/abstract.cfm?uri=aop-8-2-200)
+### [Creation and detection of optical modes with spatial light modulators](https://opg.optica.org/aop/abstract.cfm?uri=aop-8-2-200)(2016)
 
 - 実験でベクトルビームを作る際SLM(空間光変調素子)という素子を使うことが多いです.私もこの素子を用いて実験を行っています.この論文はSLMについて詳しく紹介しています.
 
-### [Spatial Light Modulators and Their Applications in Polarization Holography(2022)](https://www.intechopen.com/chapters/83627)
+### [Spatial Light Modulators and Their Applications in Polarization Holography](https://www.intechopen.com/chapters/83627)(2022)
 
 - これもSLMについての論文ですが2022年と新しいものなので最近のことが載っています.
 
@@ -202,7 +202,7 @@
 
 光の電場により原子に力が加わるのでそれらの幾何学的な関係は重要です.光によって原子を束縛する光とラッピングと言う分野でベクトルビームを用いている論文を紹介します.
 
-### [Optical trapping of nanotubes with cylindrical vector beams(2012)](https://opg.optica.org/ol/abstract.cfm?uri=ol-37-16-3381)
+### [Optical trapping of nanotubes with cylindrical vector beams](https://opg.optica.org/ol/abstract.cfm?uri=ol-37-16-3381)(2012)
 
 - None
 
@@ -210,7 +210,7 @@
 
 現在の電子部品は電流によって情報をやり取りしています.電流が導線を流れるとジュール熱が発生するのでエネルギーロスにつながり,電力消費量が増えてしまいます.そこで電子のスピンという自由度を用いて情報を伝える光スピントロニクスという分野があります.
 
-### [Imprinting spatial helicity structure of vector vortex beam on spin texture in semiconductors(2023)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.126701)
+### [Imprinting spatial helicity structure of vector vortex beam on spin texture in semiconductors](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.126701)(2023)
 
 - 従来の光スピントロニクスではスピン励起に円偏光が用いられていました.この論文ではベクトルビームを用いてスピンを励起しています.円偏光と比べてスピンの持続時間が変わったりします.
 

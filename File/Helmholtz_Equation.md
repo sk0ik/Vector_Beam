@@ -1,6 +1,18 @@
-準備中
+- [近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く](#近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く)
+  - [ヘルムホルツ方程式の導出](#ヘルムホルツ方程式の導出)
+  - [スカラーベッセルビーム](#スカラーベッセルビーム)
+- [近軸近似のもとでベクトル場に対するヘルムホルツ方程式を解く](#近軸近似のもとでベクトル場に対するヘルムホルツ方程式を解く)
+  - [エルミート多項式](#エルミート多項式)
+  - [ラプラシアンを考える](#ラプラシアンを考える)
+  - [ベクトルビームの導出もう少し詳しく](#ベクトルビームの導出もう少し詳しく)
+  - [ベッセル関数](#ベッセル関数)
+  - [ベクトルベッセルビーム](#ベクトルベッセルビーム)
+- [近軸近似せずにスカラー場のヘルムホルツ方程式を解く](#近軸近似せずにスカラー場のヘルムホルツ方程式を解く)
 
-<!-- # 近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く
+
+# 近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く
+
+ここではマクスウェル方程式から光としての電場を導出します.
 
 ## ヘルムホルツ方程式の導出
 
@@ -16,7 +28,7 @@ $$
 \nabla \times (\nabla \times \boldsymbol {E} (\boldsymbol {r} , t) ) = - \mu_0 \nabla \times \frac{\partial \boldsymbol {H} (\boldsymbol {r} , t) }{\partial t}
 $$
 
-となるがここでアンペールの法則
+となります.ここでアンペールの法則
 
 $$
 \nabla \times \boldsymbol {H} (\boldsymbol {r} , t) = \epsilon_0 \frac{\partial \boldsymbol {E} (\boldsymbol {r} , t) }{\partial t}
@@ -28,7 +40,7 @@ $$
 \nabla \times (\nabla \times \boldsymbol {E} (\boldsymbol {r} , t) ) = - \epsilon_0 \mu_0 \frac{\partial^2 \boldsymbol {E} (\boldsymbol {r} , t) }{\partial t^2}
 $$
 
-を得る。ここで
+を得ます.ここで
 
 $$
 \nabla \times (\nabla \times \boldsymbol {E} (\boldsymbol {r} , t) ) = \nabla(\nabla \cdot \boldsymbol {E} (\boldsymbol {r} , t) ) - \nabla^2 \boldsymbol {E} (\boldsymbol {r} , t)
@@ -40,7 +52,7 @@ $$
 \nabla(\nabla \cdot \boldsymbol {E} (\boldsymbol {r} , t) ) - \nabla^2 \boldsymbol {E} (\boldsymbol {r} , t) = - \epsilon_0 \mu_0 \frac{\partial^2 \boldsymbol {E} (\boldsymbol {r} , t) }{\partial t^2}
 $$
 
-を得る。電荷がない場合を考えているので
+を得ます.電荷がない場合は
 
 $$
 \nabla \cdot \boldsymbol {E} (\boldsymbol {r} , t) = 0
@@ -59,19 +71,19 @@ $$
 \therefore \nabla^2 \boldsymbol{E} (\boldsymbol {r} , t) - \epsilon_0 \mu_0 \frac{\partial^2 \boldsymbol {E} (\boldsymbol {r} , t)}{\partial t^2} = 0
 $$
 
-ここで解の形を
+となります.ここで解の形を
 
 $$
 \boldsymbol {E} (\boldsymbol {r} , t) = \boldsymbol {E} (\boldsymbol {r}) f(t)
 $$
 
-と分離できると仮定する。これを代入すると
+と分離できると仮定します.これを代入すると
 
 $$
 \nabla^2 \boldsymbol{E} (\boldsymbol {r} ) f(t) - \epsilon_0 \mu_0 \frac{\partial^2 \boldsymbol {E} (\boldsymbol {r} ) f(t)}{\partial t^2} = 0
 $$
 
-を得る。ここでフーリエ変換
+を得ます.ここでフーリエ変換
 
 $$
 F(\omega) = \frac{1}{\sqrt{2 \pi}}\int_{- \infty}^{\infty}f(t) e^{i \omega t}dt
@@ -97,7 +109,7 @@ $$
 \end{aligned}
 $$
 
-これはヘルムホルツ方程式と言うタイプの偏微分方程式。
+を得ます.これはヘルムホルツ方程式と言うタイプの偏微分方程式です.
 
 もし電場がスカラー場(偏光分布が直線であるので厳密にはベクトル場であるが座標系を適当に選べば電場の大きさだけを考えればいい)であれば
 
@@ -105,7 +117,7 @@ $$
 \boldsymbol{E}(\boldsymbol{r}) = u(x, y, z) e^{ikz} 
 $$
 
-のように書ける。これをヘルムホルツ方程式に代入すると
+のように書けます.これを先ほどのヘルムホルツ方程式に代入すると
 
 $$
 \begin{aligned}
@@ -115,13 +127,13 @@ $$
 \end{aligned}
 $$
 
-ここで近軸近似を考えると
+を得ます.ここで近軸近似を考えると
 
 $$
 \frac{\partial ^2 u}{\partial ^2 x} + \frac{\partial ^2 u}{\partial ^2 y} + 2ik \frac{\partial u}{\partial z} = 0
 $$
 
-を得る。
+を得ます.
 
 ## スカラーベッセルビーム
 
@@ -137,16 +149,16 @@ $$
 \nabla ^2 f = \nabla \cdot (\nabla f)
 $$
 
-となり勾配をとった後に発散をとることに相当する。**(スカラーラプラス演算子)**
+となり勾配をとった後に発散をとることに相当します.**(スカラーラプラス演算子)**
 
-演算する関数がベクトル場の時、ラプラシアンを演算するということは
+演算する関数がベクトル場の時,ラプラシアンを演算するということは
 
 $$
 \nabla ^2 \boldsymbol{f} = \nabla (\nabla \cdot \boldsymbol{f})
 -\nabla \times (\nabla \times \boldsymbol{f})
 $$
 
-に相当する。**(ベクトルラプラス演算子)**
+に相当します.**(ベクトルラプラス演算子)**
 
 今は電荷が存在しないマクスウェル方程を考えているので右辺第1項はゼロになり
 
@@ -154,34 +166,32 @@ $$
 \nabla \times \nabla \times \boldsymbol{E} -k^2 \boldsymbol{E} = 0
 $$
 
-となる。解の形として
+となります.ここで解の形として
 
 $$
 \boldsymbol{E}(r, z) = U(r, z) e^{ikz} \boldsymbol{e}_\phi
 $$
 
-のように軸対称な解を考える。
-
+のように軸対称な解を考えます.
 円筒座標系でのナブラは
 
 $$
 \nabla = \frac{\partial}{\partial r} \boldsymbol{e} _ r + \frac{1}{r} \frac{\partial}{\partial \phi} + \frac{\partial}{\partial z} \boldsymbol{e} _ z
 $$
 
-で
-であるが今は $\phi$ が一定であるので
+となりますが,今は $\phi$ が一定であるので
 
 $$
 \nabla = \frac{\partial}{\partial r} \boldsymbol{e}_r + \frac{\partial}{\partial z} \boldsymbol{e}_z
 $$
 
-となる。回転をとると
+となります.これを踏まえたうえで回転をとると
 
 $$
 \nabla \times \boldsymbol{E} = \Bigl (\frac{1}{r} \frac{\partial}{\partial \phi} E _ z - \frac{\partial}{\partial z} E_\phi \Bigr ) \boldsymbol{e} _ r + \Bigl (\frac{\partial}{\partial z} E_r - \frac{\partial}{\partial r} E _ z \Bigr ) \boldsymbol{e} _ \phi + \frac{1}{r} \Bigl (\frac{\partial}{\partial r} (r E_\phi) - \frac{\partial}{\partial \phi} E _ r \Bigr )\boldsymbol{e} _ z
 $$
 
-であるが今は
+となりますが今は
 
 $$
 E _ r = E _ z = 0
@@ -200,9 +210,10 @@ $$
 \frac{1}{r} \frac{\partial}{\partial \phi} \Bigl ( \frac{1}{r} \frac{\partial}{\partial r} (r E _ \phi) \Bigr ) \boldsymbol{e}_r - \Bigl ( \frac{\partial ^2}{\partial z ^2} E _ \phi + \frac{\partial}{\partial r} \Bigl ( \frac{1}{r} \frac{\partial}{\partial r} (r E _ \phi) \Bigr ) \Bigr ) \boldsymbol{e} _ \phi \newline
 &=
 -\Bigl ( \frac{\partial ^2}{\partial z ^2} E _ \phi + \frac{\partial}{\partial r} \Bigl ( \frac{1}{r} \frac{\partial}{\partial r} (r E _ \phi) \Bigr ) \Bigr ) \boldsymbol{e} _ \phi \newline
-&※ E _ \phi は \phi を含まないので第1項はゼロ
 \end{aligned}
 $$
+
+※ $E _ \phi$ は $\phi$ を含まないので第1項はゼロ
 
 いったん整理すると
 
@@ -213,7 +224,7 @@ $$
 \end{aligned}
 $$
 
-これを計算すれば
+となります.これを計算すれば
 
 $$
 \begin{aligned}
@@ -223,13 +234,13 @@ $$
 \end{aligned}
 $$
 
-を得る。例によって近軸近似をすると左辺第4項はゼロになるので
+を得ます.例によって近軸近似をすると左辺第4項はゼロになるので
 
 $$
 \frac{1}{r} \frac{\partial}{\partial r} \Bigl ( r \frac{\partial U}{\partial r} \Bigl ) - \frac{1}{r^2} U + 2ik \frac{\partial U}{\partial z} = 0
 $$
 
-を得る。
+を得ます.
 
 ## ベクトルビームの導出もう少し詳しく
 
@@ -265,4 +276,4 @@ $$
 
 ## ベクトルベッセルビーム
 
-# 近軸近似せずにスカラー場のヘルムホルツ方程式を解く -->
+# 近軸近似せずにスカラー場のヘルムホルツ方程式を解く

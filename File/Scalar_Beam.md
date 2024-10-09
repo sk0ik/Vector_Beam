@@ -1,5 +1,3 @@
-準備中
-
 <!-- <details>
 
 <summary>タイトル</summary>
@@ -8,10 +6,12 @@
 
 </details> -->
 
-<!-- - [スカラービーム](#スカラービーム)
+
+- [スカラービーム](#スカラービーム)
 - [射影演算子](#射影演算子)
 - [スカラービームの表現](#スカラービームの表現)
 - [パウリ行列展開](#パウリ行列展開)
+- [ストークスパラメーター](#ストークスパラメーター)
 - [ポアンカレ球](#ポアンカレ球)
 - [1/2波長板](#12波長板)
 - [1/4波長板](#14波長板)
@@ -19,7 +19,6 @@
 - [波長板,直線偏光子の使い道](#波長板直線偏光子の使い道)
   - [任意量のx偏光成分を取り出す](#任意量のx偏光成分を取り出す)
   - [円偏光成分を取り出す](#円偏光成分を取り出す)
-- [SLM](#slm)
 - [パウリ行列と物理量](#パウリ行列と物理量)
 
 ## スカラービーム
@@ -558,6 +557,77 @@ $$
 
 となりストークスベクトルを導出できた。
 
+## ストークスパラメーター
+
+次にストークスパラメーターを計算します.
+
+$$
+\begin{aligned}
+S' _ 1&=(Re(\alpha)\cos{\delta}-Im(\alpha)\sin{\delta})^2+(Re(\alpha)\sin{\delta}+Im(\alpha)\cos{\delta})^2+Re^2(\beta)+Im^2(\beta) \newline
+&=Re^2(\alpha)\cos^2{\delta}-2Re(\alpha)Im(\alpha)\sin{\delta}\cos{\delta}+Im^2(\alpha)\sin^2{\delta}+Re^2(\alpha)\sin^2{\delta}+2Re(\alpha)Im(\alpha)\sin{\delta}\cos{\delta}+Im^2(\alpha)\cos^2{\delta}+\vert \beta \vert^2 \newline
+&=Re^2(\alpha)+Im^2(\alpha)+\vert \beta \vert^2 \newline
+\therefore S' _ 1&=\vert \alpha \vert^2+\vert \beta \vert^2=S _ 1
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\alpha' \beta'^\ast&=-\bigl(Re(\alpha)\cos{\delta}-Im(\alpha)\sin{\delta}+i(Re(\alpha)\sin{\delta}+Im(\alpha)\cos{\delta})\bigr)(Re(\beta)-iIm(\beta)) \newline
+&=Re(\beta)Im(\alpha)\sin{\delta}-Re(\alpha)Re(\beta)\cos{\delta}-Re(\alpha)Im(\beta)\sin{\delta}-Im(\alpha)Im(\beta)\cos{\delta}+i(Re(\alpha)Im(\beta)\cos{\delta}-Re(\alpha)Re(\beta)\sin{\delta}-Im(\alpha)Im(\beta)\sin{\delta}-Re(\beta)Im(\alpha)\cos{\delta})
+\end{aligned}
+$$
+
+となるが
+
+$$
+\alpha \beta^\ast=Re(\alpha)Re(\beta)+Im(\alpha)Im(\beta)+i(Re(\beta)Im(\alpha)-Re(\alpha)Im(\beta))
+$$
+
+であるので
+
+$$
+\alpha'\beta'^\ast=-Re(\alpha \beta^\ast)\cos{\delta}+Im(\alpha \beta^\ast)\sin{\delta}+i(-Re(\alpha \beta^\ast)\sin{\delta}-Im(\alpha \beta^\ast)\cos{\delta})
+$$
+
+となります.よって
+
+$$
+\begin{aligned}
+S' _ 2&=2Re(\alpha' \beta'^\ast) \newline
+&=-2Re(\alpha \beta^\ast)\cos{\delta}+2Im(\alpha \beta^\ast)\sin{\delta} \newline
+\therefore S' _ 2 &= -S _ 2\cos{\delta}-S _ 3\sin{\delta}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+S' _ 3&=-2Im(\alpha' \beta'^\ast) \newline
+&=-2Re(\alpha \beta^\ast)\sin{\delta}-2Im(\alpha \beta^\ast)\cos{\delta} \newline
+\therefore S' _ 2 &= -S _ 2\sin{\delta}+S _ 3\cos{\delta}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\vec{S'} &=
+\begin{bmatrix}
+S _ 1 \newline
+-S _ 2\cos{\delta}-S _ 3\sin{\delta} \newline
+-S _ 2\sin{\delta}+S _ 3\cos{\delta}
+\end{bmatrix} \newline
+\therefore \vec{S'}&=\begin{bmatrix}
+1 & 0 & 0 \newline
+0 & -\cos{\delta} & -\sin{\delta} \newline
+0 & -\sin{\delta} & \cos{\delta}
+\end{bmatrix}
+\begin{bmatrix}
+S _ 1 \newline
+S _ 2 \newline
+S _ 3
+\end{bmatrix}
+\end{aligned}
+$$
+
 ## ポアンカレ球
 
 実は計算すると分かるが先ほど導出したストークスパラメーターは
@@ -705,7 +775,7 @@ $$
 
 と計算できます. -->
 
-<!-- 1/2波長板によって光を変調するとストークスパラメーターを上式のように変換することを意味しています.ポアンカレ球上の $S _ 1-S _ 2$ 平面で $4\theta$ だけ方位角が半時計回りに回転し $z$ 成分の符号が反転します.
+光を $\theta$ 傾けた1/2波長板によって変調するとストークスパラメーターを上式のように変換することを意味しています.つまりポアンカレ球上の $S _ 1-S _ 2$ 平面で $2\theta$ だけ方位角が反時計回りに回転し $z$ 成分の符号が反転します.
 
 例えば $x$ 偏光ビームを $\frac{\pi}{8}$ 傾けた1/2波長板に入射させると
 
@@ -914,6 +984,7 @@ $$
 \end{aligned}
 $$
 
+<!-- 
 $$
 \begin{aligned}
 S _ 0 &=
@@ -921,7 +992,7 @@ S _ 0 &=
 
 \end{bmatrix}
 \end{aligned}
-$$
+$$ -->
 
 ## 波長板,直線偏光子の使い道
 
@@ -933,7 +1004,7 @@ $$
 
 まずHWPでレーザーのジョーンズベクトルを回転させます.言い換えると $x,y$ 偏光の比率を変えるということです.次にPBS(Polarization Beam  Spliter) で $x$ 偏光のみを取り出します.HWPを回すことで得られる $x$ 偏光ビームの光強度が変わります.もちろん同じ要領で $y$ 偏光も任意の光強度を取り出すことができます.
 
-### 円偏光成分を取り出す -->
+### 円偏光成分を取り出す
 
 <!-- ## n波長板
 
@@ -1280,4 +1351,4 @@ $$
 
 実際に論文として出されていて
 
-これは半導体に右回り円偏光を当てた時、上向きのスピン(赤いやつ)が励起されている様子を表している。 -->
+これは半導体に右回り円偏光を当てた時、上向きのスピン(赤いやつ)が励起されている様子を表している。

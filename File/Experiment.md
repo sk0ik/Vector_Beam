@@ -1,6 +1,4 @@
-準備中
-
-<!-- # 実験案
+# 実験案
 ## その１(未完成)
 
 ⓵,BSに入射するビーム(HWP, PBS)
@@ -1395,4 +1393,4 @@ $$
 e^{i\beta} \cos^3{2\theta _ H} - e^{i\beta} \sin^2{2\theta _ H} \cos{2\theta _ H} -2\sin^2{2\theta _ H} \cos{2\theta _ H} \newline
 -e^{i\beta} \sin{2\theta _ H} \cos^2{2\theta _ H} + e^{i\beta} \sin^3{2\theta _ H} - 2\sin{2\theta _ H} \cos^2{2\theta _ H}
 \end{bmatrix}
-$$ -->
+$$
