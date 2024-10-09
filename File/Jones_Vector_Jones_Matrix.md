@@ -575,7 +575,7 @@ $$
 
 $$
 \begin{aligned}
-J &=
+J _ {LP(\theta)} &=
 \begin{bmatrix}
 \cos{\theta} & -\sin{\theta} \newline
 \sin{\theta} & \cos{\theta}
@@ -597,7 +597,7 @@ J &=
 \cos{\theta} & \sin{\theta} \newline
 -\sin{\theta} & \cos{\theta}
 \end{bmatrix} \newline
-\therefore J &= 
+\therefore J _ {LP(\theta)} &= 
 \begin{bmatrix}
 \cos^2{\theta} & \sin{\theta} \cos{\theta} \newline
 \sin{\theta} \cos{\theta} & \sin^2{\theta}
@@ -609,7 +609,7 @@ $$
 $\frac{\pi}{4}$ 傾ければ
 
 $$
-J=
+J _ {LP(\theta = \frac{\pi}{4})}=
 \begin{bmatrix}
 1 & 1 \newline
 1 & 1
@@ -718,7 +718,7 @@ $$
 
 $$
 \begin{aligned}
-J _ {1/2} &=
+J _ {HWP} &=
 \begin{bmatrix}
 \cos{2(\pi-\theta)} & \sin{2(\pi-\theta)} \newline
 \sin{2(\pi-\theta)} & -\cos{2(\pi-\theta)}
@@ -745,7 +745,7 @@ J _ {1/2} &=
 -\cos^2{2\theta}-\sin^2{2\theta} & 0 \newline
 0 & \sin^2{2\theta}+\cos^2{2\theta}
 \end{bmatrix} \newline
-\therefore J _ {1/2} &=
+\therefore J _ {HWP} &=
 \begin{bmatrix}
 -1 & 0 \newline
 0 & 1
@@ -759,7 +759,7 @@ $$
 
 $$
 \begin{aligned}
-J _ {1/4}&=
+J _ {QWP(\theta)}&=
 \begin{bmatrix}
 1 - i\cos{2(\pi-\theta)} & -i\sin{2(\pi-\theta)} \newline
 -i\sin{2(\pi-\theta)} & 1 + i\cos{2(\pi-\theta)}
@@ -786,7 +786,7 @@ J _ {1/4}&=
 \cos^2{2\theta}-1+2i\cos{2\theta}+\sin^2{2\theta} & i\sin{2\theta}+\sin{2\theta}\cos{2\theta}-\sin{2\theta}\cos{2\theta} \newline
 -i\sin{2\theta}-\sin{2\theta}\cos{2\theta}-i\sin{2\theta}+\sin{2\theta}\cos{2\theta} & -\sin^2{2\theta}+1+2i\cos{2\theta}\cos^2{2\theta}
 \end{bmatrix} \newline
-\therefore J _ {1/4} &= 2i
+\therefore J _ {QWP(\theta)} &= 2i
 \begin{bmatrix}
 \cos{2\theta} & \sin{2\theta} \newline
 -\sin{2\theta} & \cos{2\theta}
