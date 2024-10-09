@@ -1,144 +1,229 @@
-**※随時更新しています**
+ベクトルビームと関連のある教科書,論文を紹介します.
 
-目次
+**※随時更新しています**
 
 <details>
   <summary>教科書</summary>
 
-    - [光学-谷田貝豊彦(2017)](#光学-谷田貝豊彦2017)
-    - [例題で学ぶ光学入門-谷田貝豊彦(2010)](#例題で学ぶ光学入門-谷田貝豊彦2010)
-    - [はじめての光学-川田善正(2014)](#はじめての光学-川田善正2014)
+  - [光学-谷田貝豊彦(2017)](#光学-谷田貝豊彦2017)
+  - [例題で学ぶ光学入門-谷田貝豊彦(2010)](#例題で学ぶ光学入門-谷田貝豊彦2010)
+  - [はじめての光学-川田善正(2014)](#はじめての光学-川田善正2014)
 
 </details>
 
-- [論文](#論文)
-  - [レビュー論文](#レビュー論文)
-    - [Cylindrical vector beams: from mathematical concepts to applications(2009)](#cylindrical-vector-beams-from-mathematical-concepts-to-applications2009)
-    - [Vector Beams for Fundamental Physics and Applications(2016)](#vector-beams-for-fundamental-physics-and-applications2016)
-    - [Vectorial optical fields: recent advances and future prospects(2017)](#vectorial-optical-fields-recent-advances-and-future-prospects2017)
-    - [Orbital angular momentum: origins, behavior and applications(2011)](#orbital-angular-momentum-origins-behavior-and-applications2011)
-    - [Creation and detection of optical modes with spatial light modulators(2016)](#creation-and-detection-of-optical-modes-with-spatial-light-modulators2016)
-    - [Spatial Light Modulators and Their Applications in Polarization Holography(2022)](#spatial-light-modulators-and-their-applications-in-polarization-holography2022)
-  - [レーザー加工](#レーザー加工)
-    - [偏光レーザビームを用いたレーザ加工の高効率化と高機能化](#偏光レーザビームを用いたレーザ加工の高効率化と高機能化)
-    - [Femtosecond Laser Processing by Using Patterned Vector Optical Fields](#femtosecond-laser-processing-by-using-patterned-vector-optical-fields)
-  - [光トラッピング](#光トラッピング)
-    - [Optical trapping of nanotubes with cylindrical vector beams(2012)](#optical-trapping-of-nanotubes-with-cylindrical-vector-beams2012)
-  - [光スピントロニクス](#光スピントロニクス)
-    - [Imprinting spatial helicity structure of vector vortex beam on spin texture in semiconductors(2023)](#imprinting-spatial-helicity-structure-of-vector-vortex-beam-on-spin-texture-in-semiconductors2023)
-  - [ベクトルビームの生成方法](#ベクトルビームの生成方法)
-    - [Holographic femtosecond laser manipulation for advanced material processing](#holographic-femtosecond-laser-manipulation-for-advanced-material-processing)
-    - [Flexible Method for Generating Arbitrary Vector Beams Based on Modified Off-Axis Interference-Type Hologram Encoding](#flexible-method-for-generating-arbitrary-vector-beams-based-on-modified-off-axis-interference-type-hologram-encoding)
-    - [Generation of arbitrary cylindrical vector vortex beams with cross-polarized modulation](#generation-of-arbitrary-cylindrical-vector-vortex-beams-with-cross-polarized-modulation)
-    - [Generation of arbitrary vector fields based on a pair of orthogonal elliptically polarized base vectors](#generation-of-arbitrary-vector-fields-based-on-a-pair-of-orthogonal-elliptically-polarized-base-vectors)
-    - [Generation of V-point polarization singularity using single phase encoding with a spatial light modulator](#generation-of-v-point-polarization-singularity-using-single-phase-encoding-with-a-spatial-light-modulator)
-    - [A new type of vector fields with hybrid states of polarization](#a-new-type-of-vector-fields-with-hybrid-states-of-polarization)
-    - [Cylindrical vector beam multiplexer demultiplexer using off-axis polarization control](#cylindrical-vector-beam-multiplexer-demultiplexer-using-off-axis-polarization-control)
-    - [Efficient generation of vector beams by calibrating the phase response of a spatial light modulator](#efficient-generation-of-vector-beams-by-calibrating-the-phase-response-of-a-spatial-light-modulator)
-    - [Efficient on-axis SLM engineering of optical vector modes](#efficient-on-axis-slm-engineering-of-optical-vector-modes)
-    - [Flexible generation of the generalized vector vortex beams](#flexible-generation-of-the-generalized-vector-vortex-beams)
-    - [Polarization distribution control of parallel femtosecond pulses with spatial light modulators](#polarization-distribution-control-of-parallel-femtosecond-pulses-with-spatial-light-modulators)
-    - [Self-referenced interferometry for single-shot detection of vector-vortex beams](#self-referenced-interferometry-for-single-shot-detection-of-vector-vortex-beams)
-    - [Nondiffracting Bessel beams with polarization state that varies with propagation distance](#nondiffracting-bessel-beams-with-polarization-state-that-varies-with-propagation-distance)
-    - [SLMと共通光路干渉計を用いたベクトルビーム生成](#slmと共通光路干渉計を用いたベクトルビーム生成)
-  - [ベクトルビームを集光](#ベクトルビームを集光)
-    - [Vector beams excited nonlinear optical effects](#vector-beams-excited-nonlinear-optical-effects)
-    - [Formation of hybrid higher-order cylindrical vector beams using binary multi-sector phase plates](#formation-of-hybrid-higher-order-cylindrical-vector-beams-using-binary-multi-sector-phase-plates)
-    - [PyFocus – A Python package for vectorial calculations of focused optical fields under realistic conditions. Application to toroidal foci](#pyfocus--a-python-package-for-vectorial-calculations-of-focused-optical-fields-under-realistic-conditions-application-to-toroidal-foci)
-    - [Polarization conversion when focusing cylindrically polarized vortex beams](#polarization-conversion-when-focusing-cylindrically-polarized-vortex-beams)
-    - [Tight focusing properties and focal field tailoring of cylindrical vector beams generated from a linearly polarized coherent beam array](#tight-focusing-properties-and-focal-field-tailoring-of-cylindrical-vector-beams-generated-from-a-linearly-polarized-coherent-beam-array)
-    - [Variable transformation of singular cylindrical vector beams using anisotropic crystals](#variable-transformation-of-singular-cylindrical-vector-beams-using-anisotropic-crystals)
-    - [Focusing of high numerical aperture cylindrical-vector beams](#focusing-of-high-numerical-aperture-cylindrical-vector-beams)
-    - [Lensless focusing of hypergeometric laser beams](#lensless-focusing-of-hypergeometric-laser-beams)
-    - [Focusing properties of cylindrical vector vortex beams](#focusing-properties-of-cylindrical-vector-vortex-beams)
-    - [Focusing properties of cylindrical vector vortex beams with high numerical aperture objective](#focusing-properties-of-cylindrical-vector-vortex-beams-with-high-numerical-aperture-objective)
-    - [Nonparaxial and paraxial focusing of azimuthal-variant vector beams](#nonparaxial-and-paraxial-focusing-of-azimuthal-variant-vector-beams)
-    - [Tailored intensity landscapes by tight focusing of singular vector beams](#tailored-intensity-landscapes-by-tight-focusing-of-singular-vector-beams)
-    - [Generation of cylindrical vector beams of high orders using uniaxial crystals](#generation-of-cylindrical-vector-beams-of-high-orders-using-uniaxial-crystals)
-    - [Vector-vortex Bessel–Gauss beams and their tightly focusing properties](#vector-vortex-besselgauss-beams-and-their-tightly-focusing-properties)
-    - [A Method to Generate Vector Beams with Adjustable Amplitude in the Focal Plane](#a-method-to-generate-vector-beams-with-adjustable-amplitude-in-the-focal-plane)
-    - [Tight focusing properties and focal field tailoring of cylindrical vector beams generated from a linearly polarized coherent beam array](#tight-focusing-properties-and-focal-field-tailoring-of-cylindrical-vector-beams-generated-from-a-linearly-polarized-coherent-beam-array-1)
-    - [Sharper Focal Spot for a Radially Polarized Beam Using Ring Aperture with Phase Jump](#sharper-focal-spot-for-a-radially-polarized-beam-using-ring-aperture-with-phase-jump)
-  - [ベクトルビームの伝播](#ベクトルビームの伝播)
-    - [Electromagnetic diffraction in optical systems I. An integral representation of the image field](#electromagnetic-diffraction-in-optical-systems-i-an-integral-representation-of-the-image-field)
-    - [Electromagnetic diffraction in optical systems II. Structure of the image field in an aplanatic system](#electromagnetic-diffraction-in-optical-systems-ii-structure-of-the-image-field-in-an-aplanatic-system)
-    - [The angular spectrum representation of vectorial laser beams](#the-angular-spectrum-representation-of-vectorial-laser-beams)
-    - [Propagation properties of a cylindrically polarized vector beam](#propagation-properties-of-a-cylindrically-polarized-vector-beam)
-    - [Propagation evolution of an off-axis high-order](#propagation-evolution-of-an-off-axis-high-order)
-    - [Propagation of vectorial laser beams](#propagation-of-vectorial-laser-beams)
-    - [Propagation of radially polarized elegant light beams](#propagation-of-radially-polarized-elegant-light-beams)
-    - [The angular spectrum decomposition of vector laser beam polarization control of the electromagnetic field vectors](#the-angular-spectrum-decomposition-of-vector-laser-beam-polarization-control-of-the-electromagnetic-field-vectors)
-    - [Vector plane wave spectrum of an arbitrary polarized electromagnetic wave](#vector-plane-wave-spectrum-of-an-arbitrary-polarized-electromagnetic-wave)
-    - [Angular spectrum calculations for arbitrary focal length with a scaled convolution](#angular-spectrum-calculations-for-arbitrary-focal-length-with-a-scaled-convolution)
-    - [Astigmatic transformation of optical vortex beams with high-order cylindrical polarization](#astigmatic-transformation-of-optical-vortex-beams-with-high-order-cylindrical-polarization)
-    - [Robust laser beam engineering using polarization and angular momentum diversity](#robust-laser-beam-engineering-using-polarization-and-angular-momentum-diversity)
-    - [Gouy phase effects on propagation of pure and hybrid vector beams](#gouy-phase-effects-on-propagation-of-pure-and-hybrid-vector-beams)
-    - [Generation of Perfect Cylindrical Vector Beams With Complete Control Over the Ring Width and Ring Diameter](#generation-of-perfect-cylindrical-vector-beams-with-complete-control-over-the-ring-width-and-ring-diameter)
-    - [Exact vectorial model for nonparaxial focusing of freeform wavefronts](#exact-vectorial-model-for-nonparaxial-focusing-of-freeform-wavefronts)
-    - [Focal shift in vector beams](#focal-shift-in-vector-beams)
-    - [Fast computation algorithm for the Rayleigh-Sommerfeld diffraction formula using a type of scaled convolution](#fast-computation-algorithm-for-the-rayleigh-sommerfeld-diffraction-formula-using-a-type-of-scaled-convolution)
-    - [Fast-Fourier-transform based numerical integration method for the Rayleigh–Sommerfeld diffraction formula](#fast-fourier-transform-based-numerical-integration-method-for-the-rayleighsommerfeld-diffraction-formula)
-  - [ベクトルビームの制御](#ベクトルビームの制御)
-    - [Dynamic control of hybrid grafted perfect vector vortex beams](#dynamic-control-of-hybrid-grafted-perfect-vector-vortex-beams)
-    - [Complete shaping of optical vector beams](#complete-shaping-of-optical-vector-beams)
-    - [Fast calculation of tightly focused random electromagnetic beams controlling the focal field by spatial coherence](#fast-calculation-of-tightly-focused-random-electromagnetic-beams-controlling-the-focal-field-by-spatial-coherence)
-  - [ベクトルビームと機械学習](#ベクトルビームと機械学習)
-    - [Machine learning-based classification of vector vortex beams](#machine-learning-based-classification-of-vector-vortex-beams)
-    - [Single-shot polarimetry of vector beams by supervised learning](#single-shot-polarimetry-of-vector-beams-by-supervised-learning)
-  - [ベクトルビームと幾何学](#ベクトルビームと幾何学)
-    - [Full Poincare´ beams](#full-poincare-beams)
-    - [full Poincaré (FP) beams contain all possible polarization states on the surface of the Poincaré sphere](#full-poincaré-fp-beams-contain-all-possible-polarization-states-on-the-surface-of-the-poincaré-sphere)
-    - [Generation of A Space-Variant Vector Beam with Catenary-Shaped Polarization States](#generation-of-a-space-variant-vector-beam-with-catenary-shaped-polarization-states)
-    - [Observation of optical polarization Möbius strips](#observation-of-optical-polarization-möbius-strips)
-  - [ベクトルビームとGouy位相](#ベクトルビームとgouy位相)
-    - [Wave-Vector-Varying Pancharatnam-Berry Phase Photonic Spin Hall Effect](#wave-vector-varying-pancharatnam-berry-phase-photonic-spin-hall-effect)
-    - [光学におけるベリーの位相](#光学におけるベリーの位相)
-    - [Gouy phase effects on propagation of pure and hybrid vector beams](#gouy-phase-effects-on-propagation-of-pure-and-hybrid-vector-beams-1)
-    - [Manifestation of the Gouy phase in strongly focused, radially polarized beams](#manifestation-of-the-gouy-phase-in-strongly-focused-radially-polarized-beams)
-    - [Manifestation of the Gouy phase in vector-vortex beams](#manifestation-of-the-gouy-phase-in-vector-vortex-beams)
-  - [高次元ポアンカレ球](#高次元ポアンカレ球)
-    - [Controlled generation of higher-order Poincaré sphere beams from a laser](#controlled-generation-of-higher-order-poincaré-sphere-beams-from-a-laser)
-    - [Encoding Higher-Order Polarization States into Robust Partially Coherent Optical Beams](#encoding-higher-order-polarization-states-into-robust-partially-coherent-optical-beams)
-    - [Generation of arbitrary cylindrical vector beams on the higher order Poincare´](#generation-of-arbitrary-cylindrical-vector-beams-on-the-higher-order-poincare)
-    - [$\\heartsuit$ Generalized Poincare sphere](#heartsuit-generalized-poincare-sphere)
-    - [$\\heartsuit$ Higher-Order Poincaré Sphere, Stokes Parameters, and the Angular Momentum of Light](#heartsuit-higher-order-poincaré-sphere-stokes-parameters-and-the-angular-momentum-of-light)
-  - [ベクトルビームの評価方法](#ベクトルビームの評価方法)
-    - [Arbitrary complex retarders using a sequence of spatial light modulators as the basis for adaptive polarisation compensation](#arbitrary-complex-retarders-using-a-sequence-of-spatial-light-modulators-as-the-basis-for-adaptive-polarisation-compensation)
-    - [Basis-independent tomography and nonseparability witnesses of pure complex vectorial light fields by Stokes projections](#basis-independent-tomography-and-nonseparability-witnesses-of-pure-complex-vectorial-light-fields-by-stokes-projections)
-    - [Beam quality measure for vector beams](#beam-quality-measure-for-vector-beams)
-    - [Comprehensive quantitative analysis of vector beam states based on vector field reconstruction](#comprehensive-quantitative-analysis-of-vector-beam-states-based-on-vector-field-reconstruction)
-    - [Concepts in quantum state tomography and classical implementation with intense light a tutorial](#concepts-in-quantum-state-tomography-and-classical-implementation-with-intense-light-a-tutorial)
-    - [ENTANGLEMENT OF FORMATION AND CONCURRENCE](#entanglement-of-formation-and-concurrence)
-    - [Generating arbitrary non-separable states with polarization and orbital angular momentum of light](#generating-arbitrary-non-separable-states-with-polarization-and-orbital-angular-momentum-of-light)
-    - [Generation and Detection of Structured Light A Review](#generation-and-detection-of-structured-light-a-review)
-    - [Generation of fractional and ultra-high polarization-order vector vortex beams on hybrid-order Poincar´e spheres](#generation-of-fractional-and-ultra-high-polarization-order-vector-vortex-beams-on-hybrid-order-poincare-spheres)
-    - [High-order cylindrical vector beams with tunable topologicalcharge up to 14 directly generated from a microchip laser with high beam quality and high efficiency](#high-order-cylindrical-vector-beams-with-tunable-topologicalcharge-up-to-14-directly-generated-from-a-microchip-laser-with-high-beam-quality-and-high-efficiency)
-    - [High-quality vector vortex arrays by holographic and geometric phase control](#high-quality-vector-vortex-arrays-by-holographic-and-geometric-phase-control)
-    - [Measuring the nonseparability of vector vortex beams](#measuring-the-nonseparability-of-vector-vortex-beams)
-    - [Quantum Entanglement of High Angular Momenta](#quantum-entanglement-of-high-angular-momenta)
-    - [Quantum−like nonseparable structures in optical beams](#quantumlike-nonseparable-structures-in-optical-beams)
-    - [Simultaneous generation of multiple vector beams on a single SLM](#simultaneous-generation-of-multiple-vector-beams-on-a-single-slm)
-  - [近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く](#近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く)
-    - [From Maxwell to paraxial wave optics](#from-maxwell-to-paraxial-wave-optics)
-    - [Gaussian Beam 計算メモ](#gaussian-beam-計算メモ)
-  - [近軸近似のもとでベクトル場に対するヘルムホルツ方程式を解く](#近軸近似のもとでベクトル場に対するヘルムホルツ方程式を解く)
-    - [Separability and Applications of the Helmholtz Equation](#separability-and-applications-of-the-helmholtz-equation)
-    - [Vector-beam solutions of Maxwell's wave equation](#vector-beam-solutions-of-maxwells-wave-equation)
-    - [Vector Helmholtz–Gauss and vector Laplace–Gauss beams](#vector-helmholtzgauss-and-vector-laplacegauss-beams)
-    - [ガウシアンビーム:腰も砕けよ 膝も折れよ](#ガウシアンビーム腰も砕けよ-膝も折れよ)
-  - [近軸近似せずにスカラー場のヘルムホルツ方程式を解く](#近軸近似せずにスカラー場のヘルムホルツ方程式を解く)
-    - [Closed-form bases for the description of monochromatic, strongly focused, electromagnetic fields](#closed-form-bases-for-the-description-of-monochromatic-strongly-focused-electromagnetic-fields)
-    - [Measuring the nonseparability of vector vortex beams](#measuring-the-nonseparability-of-vector-vortex-beams-1)
-    - [Nonparaxial Propagation Properties of Specially Correlated Radially Polarized Beams in Free Space](#nonparaxial-propagation-properties-of-specially-correlated-radially-polarized-beams-in-free-space)
-  - [ビームの最適化](#ビームの最適化)
-    - [A practical algorithm for the determination of phase from image and diffraction plane pictures](#a-practical-algorithm-for-the-determination-of-phase-from-image-and-diffraction-plane-pictures)
-    - [Continuous-relief diffractive optical elements for two-dimensional array generation](#continuous-relief-diffractive-optical-elements-for-two-dimensional-array-generation)
-    - [Kinoform design with an optimal-rotation-angle method](#kinoform-design-with-an-optimal-rotation-angle-method)
-    - [New iterative algorithm for the design of phaseonly gratings](#new-iterative-algorithm-for-the-design-of-phaseonly-gratings)
-    - [Gerchberg-Saxton algorithm (Tutorial)](#gerchberg-saxton-algorithm-tutorial)
+<details>
+  <summary>レビュー論文</summary>
+
+  - [Cylindrical vector beams: from mathematical concepts to applications(2009)](#cylindrical-vector-beams-from-mathematical-concepts-to-applications2009)
+  - [Vector Beams for Fundamental Physics and Applications(2016)](#vector-beams-for-fundamental-physics-and-applications2016)
+  - [Vectorial optical fields: recent advances and future prospects(2017)](#vectorial-optical-fields-recent-advances-and-future-prospects2017)
+  - [Orbital angular momentum: origins, behavior and applications(2011)](#orbital-angular-momentum-origins-behavior-and-applications2011)
+  - [Creation and detection of optical modes with spatial light modulators(2016)](#creation-and-detection-of-optical-modes-with-spatial-light-modulators2016)
+  - [Spatial Light Modulators and Their Applications in Polarization Holography(2022)](#spatial-light-modulators-and-their-applications-in-polarization-holography2022)
+</details>
+
+<details>
+  <summary>レーザー加工</summary>
+
+  - [偏光レーザビームを用いたレーザ加工の高効率化と高機能化](#偏光レーザビームを用いたレーザ加工の高効率化と高機能化)
+  - [Femtosecond Laser Processing by Using Patterned Vector Optical Fields](#femtosecond-laser-processing-by-using-patterned-vector-optical-fields)
+
+</details>
+
+<details>
+  <summary>光トラッピング</summary>
+
+  - [Optical trapping of nanotubes with cylindrical vector beams(2012)](#optical-trapping-of-nanotubes-with-cylindrical-vector-beams2012)
+
+</details>
+
+<details>
+  <summary>光スピントロニクス</summary>
+
+  - [Imprinting spatial helicity structure of vector vortex beam on spin texture in semiconductors(2023)](#imprinting-spatial-helicity-structure-of-vector-vortex-beam-on-spin-texture-in-semiconductors2023)
+
+</details>
+
+<details>
+  <summary>生成方法</summary>
+
+  - [Holographic femtosecond laser manipulation for advanced material processing](#holographic-femtosecond-laser-manipulation-for-advanced-material-processing)
+  - [Flexible Method for Generating Arbitrary Vector Beams Based on Modified Off-Axis Interference-Type Hologram Encoding](#flexible-method-for-generating-arbitrary-vector-beams-based-on-modified-off-axis-interference-type-hologram-encoding)
+  - [Generation of arbitrary cylindrical vector vortex beams with cross-polarized modulation](#generation-of-arbitrary-cylindrical-vector-vortex-beams-with-cross-polarized-modulation)
+  - [Generation of arbitrary vector fields based on a pair of orthogonal elliptically polarized base vectors](#generation-of-arbitrary-vector-fields-based-on-a-pair-of-orthogonal-elliptically-polarized-base-vectors)
+  - [Generation of V-point polarization singularity using single phase encoding with a spatial light modulator](#generation-of-v-point-polarization-singularity-using-single-phase-encoding-with-a-spatial-light-modulator)
+  - [A new type of vector fields with hybrid states of polarization](#a-new-type-of-vector-fields-with-hybrid-states-of-polarization)
+  - [Cylindrical vector beam multiplexer demultiplexer using off-axis polarization control](#cylindrical-vector-beam-multiplexer-demultiplexer-using-off-axis-polarization-control)
+  - [Efficient generation of vector beams by calibrating the phase response of a spatial light modulator](#efficient-generation-of-vector-beams-by-calibrating-the-phase-response-of-a-spatial-light-modulator)
+  - [Efficient on-axis SLM engineering of optical vector modes](#efficient-on-axis-slm-engineering-of-optical-vector-modes)
+  - [Flexible generation of the generalized vector vortex beams](#flexible-generation-of-the-generalized-vector-vortex-beams)
+  - [Polarization distribution control of parallel femtosecond pulses with spatial light modulators](#polarization-distribution-control-of-parallel-femtosecond-pulses-with-spatial-light-modulators)
+  - [Self-referenced interferometry for single-shot detection of vector-vortex beams](#self-referenced-interferometry-for-single-shot-detection-of-vector-vortex-beams)
+  - [Nondiffracting Bessel beams with polarization state that varies with propagation distance](#nondiffracting-bessel-beams-with-polarization-state-that-varies-with-propagation-distance)
+  - [SLMと共通光路干渉計を用いたベクトルビーム生成](#slmと共通光路干渉計を用いたベクトルビーム生成)
+
+</details>
+
+<details>
+  <summary>集光時の振る舞い</summary>
+
+  - [Vector beams excited nonlinear optical effects](#vector-beams-excited-nonlinear-optical-effects)
+  - [Formation of hybrid higher-order cylindrical vector beams using binary multi-sector phase plates](#formation-of-hybrid-higher-order-cylindrical-vector-beams-usin-binary-multi-sector-phase-plates)
+  - [PyFocus – A Python package for vectorial calculations of focused optical fields under realistic conditions. Application to toroidal foci](#pyfocus--a-python-package-for-vectorial-calculations-of-focused-optical-fields-under-realistic-conditions-application-to-toroidal-foci)
+  - [Polarization conversion when focusing cylindrically polarized vortex beams](#polarization-conversion-when-focusing-cylindrically-polarized-vortex-beams)
+  - [Tight focusing properties and focal field tailoring of cylindrical vector beams generated from a linearly polarized coherent beam array](#tight-focusing-properties-and-focal-field-tailoring-of-cylindrical-vector-beams-generated-from-a-linearly-polarized-coherent-beam-array)
+  - [Variable transformation of singular cylindrical vector beams using anisotropic crystals](#variable-transformation-of-singular-cylindrical-vector-beams-using-anisotropic-crystals)
+  - [Focusing of high numerical aperture cylindrical-vector beams](#focusing-of-high-numerical-aperture-cylindrical-vector-beams)
+  - [Lensless focusing of hypergeometric laser beams](#lensless-focusing-of-hypergeometric-laser-beams)
+  - [Focusing properties of cylindrical vector vortex beams](#focusing-properties-of-cylindrical-vector-vortex-beams)
+  - [Focusing properties of cylindrical vector vortex beams with high numerical aperture objective](#focusing-properties-of-cylindrical-vector-vortex-beams-with-high-numerical-aperture-objective)
+  - [Nonparaxial and paraxial focusing of azimuthal-variant vector beams](#nonparaxial-and-paraxial-focusing-of-azimuthal-variant-vector-beams)
+  - [Tailored intensity landscapes by tight focusing of singular vector beams](#tailored-intensity-landscapes-by-tight-focusing-of-singular-vector-beams)
+  - [Generation of cylindrical vector beams of high orders using uniaxial crystals](#generation-of-cylindrical-vector-beams-of-high-orders-using-uniaxial-crystals)
+  - [Vector-vortex Bessel–Gauss beams and their tightly focusing properties](#vector-vortex-besselgauss-beams-and-their-tightly-focusing-properties)
+  - [A Method to Generate Vector Beams with Adjustable Amplitude in the Focal Plane](#a-method-to-generate-vector-beams-with-adjustable-amplitude-in-the-focal-plane)
+  - [Tight focusing properties and focal field tailoring of cylindrical vector beams generated from a linearly polarized coherent beam array](#tight-focusing-properties-and-focal-field-tailoring-of-cylindrical-vector-beams-generated-from-a-linearly-polarized-coherent-beam-array-1)
+  - [Sharper Focal Spot for a Radially Polarized Beam Using Ring Aperture with Phase Jump](#sharper-focal-spot-for-a-radially-polarized-beam-using-ring-aperture-with-phase-jump)
+
+</details>
+
+<details>
+  <summary>伝播時の振る舞い</summary>
+
+  - [Electromagnetic diffraction in optical systems I. An integral representation of the image field](#electromagnetic-diffraction-in-optical-systems-i-an-integral-representation-of-the-image-field)
+  - [Electromagnetic diffraction in optical systems II. Structure of the image field in an aplanatic system](#electromagnetic-diffraction-in-optical-systems-ii-structure-of-the-image-field-in-an-aplanatic-system)
+  - [The angular spectrum representation of vectorial laser beams](#the-angular-spectrum-representation-of-vectorial-laser-beams)
+  - [Propagation properties of a cylindrically polarized vector beam](#propagation-properties-of-a-cylindrically-polarized-vector-beam)
+  - [Propagation evolution of an off-axis high-order](#propagation-evolution-of-an-off-axis-high-order)
+  - [Propagation of vectorial laser beams](#propagation-of-vectorial-laser-beams)
+  - [Propagation of radially polarized elegant light beams](#propagation-of-radially-polarized-elegant-light-beams)
+  - [The angular spectrum decomposition of vector laser beam polarization control of the electromagnetic field vectors](#the-angular-spectrum-decomposition-of-vector-laser-beam-polarization-control-of-the-electromagnetic-field-vectors)
+  - [Vector plane wave spectrum of an arbitrary polarized electromagnetic wave](#vector-plane-wave-spectrum-of-an-arbitrary-polarized-electromagnetic-wave)
+  - [Angular spectrum calculations for arbitrary focal length with a scaled convolution](#angular-spectrum-calculations-for-arbitrary-focal-length-with--scaled-convolution)
+  - [Astigmatic transformation of optical vortex beams with high-order cylindrical polarization](#astigmatic-transformation-of-optical-vortex-beams-with-high-order-cylindrical-polarization)
+  - [Robust laser beam engineering using polarization and angular momentum diversity](#robust-laser-beam-engineering-using-polarization-and-angular-momentum-diversity)
+  - [Gouy phase effects on propagation of pure and hybrid vector beams](#gouy-phase-effects-on-propagation-of-pure-and-hybrid-vector-beams)
+  - [Generation of Perfect Cylindrical Vector Beams With Complete Control Over the Ring Width and Ring Diameter](#generation-of-perfect-cylindrical-vector-beams-with-complete-control-over-the-ring-width-and-ring-diameter)
+  - [Exact vectorial model for nonparaxial focusing of freeform wavefronts](#exact-vectorial-model-for-nonparaxial-focusing-of-freeform-wavefronts)
+  - [Focal shift in vector beams](#focal-shift-in-vector-beams)
+  - [Fast computation algorithm for the Rayleigh-Sommerfeld diffraction formula using a type of scaled convolution](#fast-computation-algorithm-for-the-rayleigh-sommerfeld-diffraction-formula-using-a-type-of-scaled-convolution)
+  - [Fast-Fourier-transform based numerical integration method for the Rayleigh–Sommerfeld diffraction formula](#fast-fourier-transform-based-numerical-integration-method-for-the-rayleighsommerfeld-diffraction-formula)
+
+</details>
+
+<details>
+  <summary>制御方法</summary>
+
+  - [Dynamic control of hybrid grafted perfect vector vortex beams](#dynamic-control-of-hybrid-grafted-perfect-vector-vortex-beams)
+  - [Complete shaping of optical vector beams](#complete-shaping-of-optical-vector-beams)
+  - [Fast calculation of tightly focused random electromagnetic beams controlling the focal field by spatial coherence](#fast-calculation-of-tightly-focused-random-electromagnetic-beams-controlling-the-focal-field-by-spatial-coherence)
+
+</details>
+
+<details>
+  <summary>機械学習</summary>
+
+  - [Machine learning-based classification of vector vortex beams](#machine-learning-based-classification-of-vector-vortex-beams)
+  - [Single-shot polarimetry of vector beams by supervised learning](#single-shot-polarimetry-of-vector-beams-by-supervised-learning)
+
+</details>
+
+<details>
+  <summary>幾何学</summary>
+
+  - [Full Poincare´ beams](#full-poincare-beams)
+  - [full Poincaré (FP) beams contain all possible polarization states on the surface of the Poincaré sphere](#full-poincaré-fp-beams-contain-all-possible-polarization-states-on-the-surface-of-the-poincaré-sphere)
+  - [Generation of A Space-Variant Vector Beam with Catenary-Shaped Polarization States](#generation-of-a-space-variant-vector-beam-with-catenary-shaped-polarization-states)
+  - [Observation of optical polarization Möbius strips](#observation-of-optical-polarization-möbius-strips)
+
+</details>
+
+<details>
+  <summary>Gouy位相</summary>
+
+  - [Wave-Vector-Varying Pancharatnam-Berry Phase Photonic Spin Hall Effect](#wave-vector-varying-pancharatnam-berry-phase-photonic-spin-hall-effect)
+  - [光学におけるベリーの位相](#光学におけるベリーの位相)
+  - [Gouy phase effects on propagation of pure and hybrid vector beams](#gouy-phase-effects-on-propagation-of-pure-and-hybrid-vector-beams-1)
+  - [Manifestation of the Gouy phase in strongly focused, radially polarized beams](#manifestation-of-the-gouy-phase-in-strongly-focused-radially-polarized-beams)
+  - [Manifestation of the Gouy phase in vector-vortex beams](#manifestation-of-the-gouy-phase-in-vector-vortex-beams)
+
+</details>
 
 
-ベクトルビームに関連する教科書や論文などを貼ります.無料で読めない論文もありますm(__)m
+<details>
+  <summary>高次元ポアンカレ球</summary>
+
+  - [Controlled generation of higher-order Poincaré sphere beams from a laser](#controlled-generation-of-higher-order-poincaré-sphere-beams-from-a-laser)
+  - [Encoding Higher-Order Polarization States into Robust Partially Coherent Optical Beams](#encoding-higher-order-polarization-states-into-robust-partially-coherent-optical-beams)
+  - [Generation of arbitrary cylindrical vector beams on the higher order Poincare´](#generation-of-arbitrary-cylindrical-vector-beams-on-the-higher-order-poincare)
+  - [Generalized Poincare sphere](#generalized-poincare-sphere)
+  - [Higher-Order Poincaré Sphere, Stokes Parameters, and the Angular Momentum of Light](#higher-order-poincaré-sphere-stokes-parameters-and-the-angular-momentum-of-light)
+
+</details>
+
+<details>
+  <summary>評価方法</summary>
+
+  - [Arbitrary complex retarders using a sequence of spatial light modulators as the basis for adaptive polarisation compensation](#arbitrary-complex-retarders-using-a-sequence-of-spatial-light-modulators-as-the-basis-for-adaptive-polarisation-compensation)
+  - [Basis-independent tomography and nonseparability witnesses of pure complex vectorial light fields by Stokes projections](#basis-independent-tomography-and-nonseparability-witnesses-of-pure-complex-vectorial-light-fields-by-stokes-projections)
+  - [Beam quality measure for vector beams](#beam-quality-measure-for-vector-beams)
+  - [Comprehensive quantitative analysis of vector beam states based on vector field reconstruction](#comprehensive-quantitative-analysis-of-vector-beam-states-based-on-vector-field-reconstruction)
+  - [Concepts in quantum state tomography and classical implementation with intense light a tutorial](#concepts-in-quantum-state-tomography-and-classical-implementation-with-intense-light-a-tutorial)
+  - [ENTANGLEMENT OF FORMATION AND CONCURRENCE](#entanglement-of-formation-and-concurrence)
+  - [Generating arbitrary non-separable states with polarization and orbital angular momentum of light](#generating-arbitrary-non-separable-states-with-polarization-and-orbital-angular-momentum-of-light)
+  - [Generation and Detection of Structured Light A Review](#generation-and-detection-of-structured-light-a-review)
+  - [Generation of fractional and ultra-high polarization-order vector vortex beams on hybrid-order Poincar´e spheres](#generation-of-fractional-and-ultra-high-polarization-order-vector-vortex-beams-on-hybrid-order-poincare-spheres)
+  - [High-order cylindrical vector beams with tunable topologicalcharge up to 14 directly generated from a microchip laser with high beam quality and high efficiency](#high-order-cylindrical-vector-beams-with-tunable-topologicalcharge-up-to-14-directly-generated-from-a-microchip-laser-with-high-beam-quality-and-high-efficiency)
+  - [High-quality vector vortex arrays by holographic and geometric phase control](#high-quality-vector-vortex-arrays-by-holographic-and-geometric-phase-control)
+  - [Measuring the nonseparability of vector vortex beams](#measuring-the-nonseparability-of-vector-vortex-beams)
+  - [Quantum Entanglement of High Angular Momenta](#quantum-entanglement-of-high-angular-momenta)
+  - [Quantum−like nonseparable structures in optical beams](#quantumlike-nonseparable-structures-in-optical-beams)
+  - [Simultaneous generation of multiple vector beams on a single SLM](#simultaneous-generation-of-multiple-vector-beams-on-a-single-slm)
+
+</details>
+
+<details>
+  <summary>ヘルムホルツ方程式</summary>
+
+  <details>
+  <summary>スカラー場(近軸近似)</summary>
+
+  - [From Maxwell to paraxial wave optics](#from-maxwell-to-paraxial-wave-optics)
+  - [Gaussian Beam 計算メモ](#gaussian-beam-計算メモ)
+  
+  </details>
+  
+  <details>
+  <summary>ベクトル場(近軸近似)</summary>  
+
+  - [Separability and Applications of the Helmholtz Equation](#separability-and-applications-of-the-helmholtz-equation)
+  - [Vector-beam solutions of Maxwell's wave equation](#vector-beam-solutions-of-maxwells-wave-equation)
+  - [Vector Helmholtz–Gauss and vector Laplace–Gauss beams](#vector-helmholtzgauss-and-vector-laplacegauss-beams)
+  - [ガウシアンビーム:腰も砕けよ 膝も折れよ](#ガウシアンビーム腰も砕けよ-膝も折れよ)
+  
+  </details>
+
+  <details>
+  <summary>スカラー場(非近軸近似)</summary>  
+
+  - [Closed-form bases for the description of monochromatic, strongly focused, electromagnetic fields](#closed-form-bases-for-the-description-of-monochromatic-strongly-focused-electromagnetic-fields)
+  - [Measuring the nonseparability of vector vortex beams](#measuring-the-nonseparability-of-vector-vortex-beams-1)
+  - [Nonparaxial Propagation Properties of Specially Correlated Radially Polarized Beams in Free Space](#nonparaxial-propagation-properties-of-specially-correlated-radially-polarized-beams-in-free-space)
+  
+  </details>
+
+</details>
+
+<details>
+  <summary>最適化</summary>
+
+  - [A practical algorithm for the determination of phase from image and diffraction plane pictures](#a-practical-algorithm-for-the-determination-of-phase-from-image-and-diffraction-plane-pictures)
+  - [Continuous-relief diffractive optical elements for two-dimensional array generation](#continuous-relief-diffractive-optical-elements-for-two-dimensional-array-generation)
+  - [Kinoform design with an optimal-rotation-angle method](#kinoform-design-with-an-optimal-rotation-angle-method)
+  - [New iterative algorithm for the design of phaseonly gratings](#new-iterative-algorithm-for-the-design-of-phaseonly-gratings)
+  - [Gerchberg-Saxton algorithm (Tutorial)](#gerchberg-saxton-algorithm-tutorial)
+
+</details>
 
 <div style="page-break-before:always"></div>
 
@@ -538,11 +623,11 @@
 
 - None
 
-### $\heartsuit$ [Generalized Poincare sphere](https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-20-26586&id=327702)
+### [Generalized Poincare sphere](https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-20-26586&id=327702)
 
 - None
 
-### $\heartsuit$ [Higher-Order Poincaré Sphere, Stokes Parameters, and the Angular Momentum of Light](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.107.053601)
+### [Higher-Order Poincaré Sphere, Stokes Parameters, and the Angular Momentum of Light](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.107.053601)
 
 - None
 
