@@ -126,7 +126,7 @@
 
 <div align="center">
 
-| ![GIF1](https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/make_radial_azimuthal)|
+| ![Pic1](https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/make_radial_azimuthal.png)|
 |:---:|
 | ラジアル,アジマス偏光を生成する光学系 |
 
