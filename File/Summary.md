@@ -125,7 +125,7 @@
 ## 実験光学系
 
 <p align="center">
-<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/make_radial_azimuthal.png" alt="サンプル画像" width="500">
+<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="500">
 </p>
 
 ## まとめ
