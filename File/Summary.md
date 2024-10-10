@@ -124,13 +124,9 @@
 
 ## 実験光学系
 
-<div align="center">
-
-| ![Pic1](https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/make_radial_azimuthal.png)|
-|:---:|
-| ラジアル,アジマス偏光を生成する光学系 |
-
-</div>
+<p align="center">
+<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/make_radial_azimuthal.png" alt="サンプル画像" width="300">
+</p>
 
 ## まとめ
 
