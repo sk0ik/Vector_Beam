@@ -59,6 +59,16 @@ $$
 \frac{E _ {y}}{E _ {y0}} = \frac{E _ {x}}{E _ {x0}} \cos{\varepsilon}-\sqrt{1-\frac{E _ x}{E _ {x0}}^2}\sin{\varepsilon}
 $$
 
+となりz,tを失くすことができました.移項して両辺を二乗すると
+
+$$
+\Bigl(\frac{E _ {y}}{E _ {y0}}-\frac{E _ {x}}{E _ {x0}} \cos{\varepsilon}\Bigr)^2=(1-\frac{E _ x}{E _ {x0}})\sin^2{\varepsilon}
+$$
+
+$$
+\Bigl(\frac{E _ {x}}{E _ {x0}}\Bigr)^2+\Bigl(\frac{E _ {y}}{E _ {y0}}\Bigr)^2-2\frac{E _ {x}E _ y}{E _ {x0}E _ {y0}} \cos{\varepsilon}=\sin^2{\varepsilon}
+$$
+
 ## 射影演算子
 
 今までの説明では偏光を表すときにジョーンズベクトルの各成分の振幅比と位相差のみが重要と言ってきました.つまりジョーンズベクトルが

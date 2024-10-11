@@ -51,6 +51,14 @@ i \sin^2{\theta} + \cos^2{\theta} & \sin{\theta} \cos{\theta} (1 - i) \\
 \end{aligned}
 $$
 
+$$
+J _ {QWP(\pi-\theta)}=
+\begin{bmatrix}
+1 - i\cos{2\theta} & i\sin{2\theta} \newline
+i\sin{2\theta} & 1 + i\cos{2\theta}
+\end{bmatrix}
+$$
+
 ### LP
 
 $$

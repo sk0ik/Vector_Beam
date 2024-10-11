@@ -111,6 +111,7 @@
   - [Focal shift in vector beams](#focal-shift-in-vector-beams)
   - [Fast computation algorithm for the Rayleigh-Sommerfeld diffraction formula using a type of scaled convolution](#fast-computation-algorithm-for-the-rayleigh-sommerfeld-diffraction-formula-using-a-type-of-scaled-convolution)
   - [Fast-Fourier-transform based numerical integration method for the Rayleigh–Sommerfeld diffraction formula](#fast-fourier-transform-based-numerical-integration-method-for-the-rayleighsommerfeld-diffraction-formula)
+  - [Mutual transformations of fractional-order and integer-order optical vortices](#mutual-transformations-of-fractional-order-and-integer-order-optical-vortices)
 
 </details>
 
@@ -313,7 +314,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームの生成方法
+## 生成方法
 
 主にSLMを用いてベクトルビームを生成する論文を紹介します.
 
@@ -377,7 +378,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームを集光
+## 集光時の振る舞い
 
 低NAレンズや高NAレンズで集光したときの振る舞いについての論文です.特にレーザー加工の分野では高NAレンズで集光するので,このときの物理現象の理解が必要です.主にシミュレーションを用いています.
 
@@ -453,7 +454,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームの伝播
+## 伝播時の振る舞い
 
 実験ではレンズの結像関係を用いて理想的な伝播状況を再現しますがどうしても自由空間中を伝播するくらいの光学系のずれは発生してしまいます.特にビームの位相と偏光状態によってどのようなビームが変化するかを載せています.
 
@@ -541,9 +542,13 @@
 
 - None
 
+### [Mutual transformations of fractional-order and integer-order optical vortices](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.063807)
+
+- None
+
 <div style="page-break-before:always"></div>
 
-## ベクトルビームの制御
+## 制御
 
 ### [Dynamic control of hybrid grafted perfect vector vortex beams](https://www.nature.com/articles/s41467-023-39599-8)
 
@@ -559,7 +564,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームと機械学習
+## 機械学習
 
 ### [Machine learning-based classification of vector vortex beams](https://arxiv.org/abs/2005.07949)
 
@@ -571,7 +576,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームと幾何学
+## 幾何学
 
 ### [Full Poincare´ beams](https://opg.optica.org/oe/fulltext.cfm?uri=oe-18-10-10777)
 
@@ -591,7 +596,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームとGouy位相
+## Gouy位相
 
 ### [Wave-Vector-Varying Pancharatnam-Berry Phase Photonic Spin Hall Effect](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.083901)
 
@@ -639,7 +644,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ベクトルビームの評価方法
+## 評価方法
 
 ### [Arbitrary complex retarders using a sequence of spatial light modulators as the basis for adaptive polarisation compensation](https://iopscience.iop.org/article/10.1088/2040-8986/abed33/meta)
 
@@ -701,7 +706,7 @@
 
 <div style="page-break-before:always"></div>
 
-## 近軸近似のもとでスカラー場に対するヘルムホルツ方程式を解く
+## スカラー場(近軸近似)
 
 ### [From Maxwell to paraxial wave optics](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.11.1365)
 
@@ -713,7 +718,7 @@
 
 <div style="page-break-before:always"></div>
 
-## 近軸近似のもとでベクトル場に対するヘルムホルツ方程式を解く
+## ベクトル場(近軸近似)
 
 ### [Separability and Applications of the Helmholtz Equation](https://fse.studenttheses.ub.rug.nl/18997/)
 
@@ -734,7 +739,7 @@
 
 <div style="page-break-before:always"></div>
   
-## 近軸近似せずにスカラー場のヘルムホルツ方程式を解く
+## スカラー場(非近軸近似)
 
 ### [Closed-form bases for the description of monochromatic, strongly focused, electromagnetic fields](https://opg.optica.org/josaa/abstract.cfm?uri=josaa-26-10-2211)
 
@@ -751,7 +756,7 @@
 
 <div style="page-break-before:always"></div>
 
-## ビームの最適化
+## 最適化
 
 ### [A practical algorithm for the determination of phase from image and diffraction plane pictures](https://www.semanticscholar.org/paper/A-practical-algorithm-for-the-determination-of-from-Gerchberg/5a114d3050a0a33f8cc6d28d55fa048a5a7ab6f2)
 
