@@ -125,7 +125,7 @@
 ## 実験光学系
 
 <p align="center">
-<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="500">
+<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="400">
 </p>
 
 ベクトルビームを生成する一番シンプルな光学系はこちらだと思います.

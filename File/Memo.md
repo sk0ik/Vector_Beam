@@ -187,7 +187,7 @@ $$
 ## ベクトルビームの作り方
 
 <p align="center">
-<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="500">
+<img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="400">
 </p>
 
 この光学系で得られるジョーンズベクトル
@@ -270,7 +270,7 @@ J &=
 \end{aligned}
 $$
 
-(ⅰ)$\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}$
+(ⅰ) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}$
 
 $$
 \begin{aligned}
@@ -307,7 +307,7 @@ $$
 \end{aligned}
 $$
 
-(ⅱ)$\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}+\frac{\alpha}{2}$
+(ⅱ) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}+\frac{\alpha}{2}$
 
 $$
 \begin{aligned}
