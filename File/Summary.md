@@ -128,6 +128,8 @@
 <img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="500">
 </p>
 
+ベクトルビームを生成する一番シンプルな光学系はこちらだと思います.
+
 ## まとめ
 
 上記で説明したような不一様な偏光状態,位相状態をSLMを用いて高精度に生成する研究をしています.実験がメインですが理論的な理解をしたうえで実験結果を考察し,誤差や失敗の原因を探るような研究をすることを心がけています.
