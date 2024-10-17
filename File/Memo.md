@@ -204,8 +204,8 @@ $$
 \begin{aligned}
 J &= 
   \begin{bmatrix}
-    1 - i\cos{2\theta _ 2} & i\sin{2\theta _ 2} \newline
-    i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
   \end{bmatrix}
   \begin{bmatrix}
     -e^{i\delta} & 0 \newline
@@ -225,8 +225,8 @@ J &=
   \end{bmatrix} \newline
   &=
   \begin{bmatrix}
-    1 - i\cos{2\theta _ 2} & i\sin{2\theta _ 2} \newline
-    i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
   \end{bmatrix}
   \begin{bmatrix}
     -e^{i\delta} & 0 \newline
@@ -242,8 +242,8 @@ J &=
   \end{bmatrix} \newline
 &\propto
   \begin{bmatrix}
-    1 - i\cos{2\theta _ 2} & i\sin{2\theta _ 2} \newline
-    i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
   \end{bmatrix}
   \begin{bmatrix}
     -e^{i\delta} & 0 \newline
@@ -255,8 +255,8 @@ J &=
   \end{bmatrix} \newline
 &=
   \begin{bmatrix}
-    1 - i\cos{2\theta _ 2} & i\sin{2\theta _ 2} \newline
-    i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
   \end{bmatrix}
   \begin{bmatrix}
     -e^{i\delta}\cos{2\theta _ 1} \newline
@@ -264,8 +264,8 @@ J &=
   \end{bmatrix} \newline
 \therefore J &\propto
   \begin{bmatrix}
-    -e^{i\delta}\cos{2\theta _ 1}(1 - i\cos{2\theta _ 2})+i\sin{2\theta _ 1}\sin{2\theta _ 2} \newline
-    -ie^{i\delta}\cos{2\theta _ 1}\sin{2\theta _ 2}+\sin{2\theta _ 1}(1+\cos{2\theta _ 2})
+    -e^{i\delta}\cos{2\theta _ 1}(1 - i\cos{2\theta _ 2})-i\sin{2\theta _ 1}\sin{2\theta _ 2} \newline
+    -ie^{i\delta}\cos{2\theta _ 1}\sin{2\theta _ 2}-\sin{2\theta _ 1}(1+\cos{2\theta _ 2})
   \end{bmatrix}
 \end{aligned}
 $$
@@ -276,33 +276,28 @@ $$
 \begin{aligned}
   J &\propto
   \begin{bmatrix}
-    -e^{i\delta}+i \newline
-    -ie^{i\delta}+1
-  \end{bmatrix} \newline
-  &=
-  \begin{bmatrix}
-    -e^{i\delta}+i \newline
-    -ie^{i\delta}+1
+    -e^{i\delta}-i \newline
+    -ie^{i\delta}-1
   \end{bmatrix} \newline
   &=e^{\frac{\delta}{2}}
   \begin{bmatrix}
-    -e^{i\frac{\delta}{2}}+ie^{-i\frac{\delta}{2}} \newline
-    -ie^{i\frac{\delta}{2}}+e^{-i\frac{\delta}{2}}
+    -e^{i\frac{\delta}{2}}-ie^{-i\frac{\delta}{2}} \newline
+    -ie^{i\frac{\delta}{2}}-e^{-i\frac{\delta}{2}}
   \end{bmatrix} \newline
   &=e^{\frac{\delta}{2}}
   \begin{bmatrix}
-  -\cos{\frac{\delta}{2}-i\sin{\frac{\delta}{2}}}+i\cos{\frac{\delta}{2}}+\sin{\frac{\delta}{2}} \newline
-  -i\cos{\frac{\delta}{2}}+\sin{\frac{\delta}{2}}+\cos{\frac{\delta}{2}}-i\sin{\frac{\delta}{2}}
+  -\cos{\frac{\delta}{2}-i\sin{\frac{\delta}{2}}}-i\cos{\frac{\delta}{2}}-\sin{\frac{\delta}{2}} \newline
+  -i\cos{\frac{\delta}{2}}+\sin{\frac{\delta}{2}}-\cos{\frac{\delta}{2}}+i\sin{\frac{\delta}{2}}
   \end{bmatrix} \newline
-  &=e^{\frac{\delta}{2}}(1-i)
+  &=-e^{\frac{\delta}{2}}(1+i)
   \begin{bmatrix}
-  \sin{\frac{\delta}{2}}-\cos{\frac{\delta}{2}} \newline
-  \sin{\frac{\delta}{2}}+\cos{\frac{\delta}{2}}
+  \sin{\frac{\delta}{2}}+\cos{\frac{\delta}{2}} \newline
+  \sin{\frac{\delta}{2}}-\cos{\frac{\delta}{2}}
   \end{bmatrix} \newline
   \therefore J &\propto
   \begin{bmatrix}
-  \sin{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)} \newline
-  \sin{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)}
+  \sin{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)} \newline
+  \sin{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)}
   \end{bmatrix}  
 \end{aligned}
 $$
