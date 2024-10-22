@@ -128,7 +128,104 @@
 <img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="400">
 </p>
 
-ベクトルビームを生成する一番シンプルな光学系はこちらだと思います.
+上記の光学系でベクトルビームを生成することができます.偏光状態と位相状態はジョーンズベクトルという形で表現でき,この光学系では
+
+$$
+J = J _ {QWP(\theta _ 2)} J _ {SLM} J _ {HWP(\theta _ 1)} J _ {PBS}
+\begin{bmatrix}
+\alpha \newline
+\beta
+\end{bmatrix}
+$$
+
+$$
+\begin{aligned}
+J &= 
+  \begin{bmatrix}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta} & 0 \newline
+    0 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    \cos{2\theta _ 1} & \sin{2\theta _ 1} \newline
+    \sin{2\theta _ 1} & -\cos{2\theta _ 1}
+  \end{bmatrix}
+  \begin{bmatrix}
+    1 & 0 \newline
+    0 & 0
+  \end{bmatrix}
+  \begin{bmatrix}
+    \alpha \newline
+    \beta
+  \end{bmatrix} \newline
+  &=
+  \begin{bmatrix}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta} & 0 \newline
+    0 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    \cos{2\theta _ 2} & \sin{2\theta _ 2} \newline
+    \sin{2\theta _ 2} & -\cos{2\theta _ 2}
+  \end{bmatrix}
+  \begin{bmatrix}
+    \alpha \newline
+    0
+  \end{bmatrix} \newline
+&\propto
+  \begin{bmatrix}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta} & 0 \newline
+    0 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    \cos{2\theta _ 1} \newline
+    \sin{2\theta _ 1}
+  \end{bmatrix} \newline
+&=
+  \begin{bmatrix}
+    1 - i\cos{2\theta _ 2} & -i\sin{2\theta _ 2} \newline
+    -i\sin{2\theta _ 2} & 1 + i\cos{2\theta _ 2}
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta}\cos{2\theta _ 1} \newline
+    \sin{2\theta _ 1}
+  \end{bmatrix} \newline
+\therefore J &\propto
+  \begin{bmatrix}
+    -e^{i\delta}\cos{2\theta _ 1}(1 - i\cos{2\theta _ 2})-i\sin{2\theta _ 1}\sin{2\theta _ 2} \newline
+    -ie^{i\delta}\cos{2\theta _ 1}\sin{2\theta _ 2}-\sin{2\theta _ 1}(1+\cos{2\theta _ 2})
+  \end{bmatrix}
+\end{aligned}
+$$
+
+PBSによって入射ビームのx偏光ビームを取り出しています.また
+
+- $\theta _ 1:$ 1/2波長板を回す角度
+- $\theta _ 2:$ 1/4波長板を回す角度
+
+です.例えば
+
+$$
+\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}, \delta =2\bigl(\varphi+\frac{\pi}{4}\bigr)
+$$
+
+であれば先ほどGIFで示したラジアル偏光ビームを生成できます.また
+
+$$
+\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}, \delta =2\bigl(\varphi-\frac{\pi}{4}\bigr)
+$$
+
+であれば先ほどGIFで示したアジマス偏光ビームを生成できます.
 
 ## まとめ
 

@@ -9,6 +9,7 @@
     - [HWP](#hwp-1)
     - [QWP](#qwp-1)
 - [ベクトルビームの作り方](#ベクトルビームの作り方)
+- [ダイナミック位相](#ダイナミック位相)
 
 
 ## 波長板
@@ -270,7 +271,7 @@ J &=
 \end{aligned}
 $$
 
-(ⅰ) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}$
+(1) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}$
 
 $$
 \begin{aligned}
@@ -294,15 +295,275 @@ $$
   \sin{\frac{\delta}{2}}+\cos{\frac{\delta}{2}} \newline
   \sin{\frac{\delta}{2}}-\cos{\frac{\delta}{2}}
   \end{bmatrix} \newline
-  \therefore J &\propto
+  \therefore J &=e^{i\frac{\delta}{2}}e^{i\frac{5}{4}\pi}
   \begin{bmatrix}
   \sin{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)} \newline
   \sin{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)}
-  \end{bmatrix}  
+  \end{bmatrix}
+  % \propto
+  %   e^{\frac{\delta}{2}e^{\frac{\pi}{4}}}
+  %   \begin{bmatrix}
+  %     \sin{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)} \newline
+  %     \sin{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)}
+  %   \end{bmatrix}
 \end{aligned}
 $$
 
-(ⅱ) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}+\frac{\alpha}{2}$
+(1-1)
+
+$\delta = 2(\varphi+\frac{\pi}{4})$
+
+$$
+e^{i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{i\varphi}e^{-i\frac{\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=2, m _ 2=0, \Delta \varphi = -\frac{\pi}{2}$
+
+(1-2)
+
+$\delta = 2(\varphi-\frac{\pi}{4})$
+
+$$
+e^{i\varphi}e^{i\frac{3\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{i\varphi}e^{-i\frac{\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=2, m _ 2=0, \Delta \varphi = -\frac{\pi}{2}$
+
+(1-3)
+
+$\delta = -2(\varphi+\frac{\pi}{4})$
+
+$$
+e^{-i\varphi}e^{i\frac{3\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{-i\varphi}e^{-i\frac{\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=0, m _ 2=2, \Delta \varphi = -\frac{\pi}{2}$
+
+(1-4)
+
+$\delta = -2(\varphi-\frac{\pi}{4})$
+
+$$
+e^{-i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{-i\varphi}e^{-i\frac{\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=0, m _ 2=2, \Delta \varphi = -\frac{\pi}{2}$
+
+(2) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=-\frac{\pi}{4}$
+
+$$
+\begin{aligned}
+  J &\propto
+  \begin{bmatrix}
+    -e^{i\delta}+i \newline
+    ie^{i\delta}-1
+  \end{bmatrix} \newline
+  &=e^{\frac{\delta}{2}}
+  \begin{bmatrix}
+    -e^{i\frac{\delta}{2}}+ie^{-i\frac{\delta}{2}} \newline
+    ie^{i\frac{\delta}{2}}-e^{-i\frac{\delta}{2}}
+  \end{bmatrix} \newline
+  &=e^{\frac{\delta}{2}}
+  \begin{bmatrix}
+    -\cos{\frac{\delta}{2}-i\sin{\frac{\delta}{2}}}+i\cos{\frac{\delta}{2}}+\sin{\frac{\delta}{2}} \newline
+    i\cos{\frac{\delta}{2}}-\sin{\frac{\delta}{2}}-\cos{\frac{\delta}{2}}+i\sin{\frac{\delta}{2}}
+  \end{bmatrix} \newline
+  &=-e^{\frac{\delta}{2}}(1-i)
+  \begin{bmatrix}
+    \cos{\frac{\delta}{2}}-\sin{\frac{\delta}{2}} \newline
+    \cos{\frac{\delta}{2}}+\sin{\frac{\delta}{2}}
+  \end{bmatrix} \newline
+  \therefore J &=e^{\frac{\delta}{2}e^{\frac{3}{4}\pi}}
+  \begin{bmatrix}
+    -\cos{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)} \newline
+    \cos{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)}
+  \end{bmatrix}
+  \propto
+    e^{\frac{\delta}{2}e^{-\frac{\pi}{4}}}
+  \begin{bmatrix}
+    -\cos{\bigl(\frac{\delta}{2}+\frac{\pi}{4}\bigr)} \newline
+    \cos{\bigl(\frac{\delta}{2}-\frac{\pi}{4}\bigr)}
+  \end{bmatrix}
+\end{aligned}
+$$
+
+(2-1)
+
+$\delta = 2(\varphi+\frac{\pi}{4})$
+
+$$
+e^{i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{i\varphi}e^{-i\frac{\pi}{2}}\Bigl(e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=2, m _ 2=0, \Delta \varphi = -\frac{\pi}{2}$
+
+(2-2)
+
+$\delta = 2(\varphi-\frac{\pi}{4})$
+
+$$
+e^{i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{i\varphi}e^{-i\frac{\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=2, m _ 2=0, \Delta \varphi = -\frac{\pi}{2}$
+
+(2-3)
+
+$\delta = -2(\varphi+\frac{\pi}{4})$
+
+$$
+e^{-i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{-i\varphi}e^{-i\frac{\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=0, m _ 2=2, \Delta \varphi = -\frac{\pi}{2}$
+
+(2-4)
+
+$\delta = -2(\varphi-\frac{\pi}{4})$
+
+$$
+e^{-i\varphi}e^{i\frac{3\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr) \leftrightarrow
+e^{-i\varphi}e^{-i\frac{\pi}{2}}\Bigl(-e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)
+$$
+
+$m _ 1=0, m _ 2=2, \Delta \varphi = -\frac{\pi}{2}$
+
+(3) $\theta _ 1=\frac{\pi}{8}, \theta _ 2=\frac{\pi}{4}+\alpha$
 
 $$
 \begin{aligned}
@@ -313,18 +574,103 @@ $$
   \end{bmatrix} \newline
   \therefore J &\propto
   \begin{bmatrix}
-    -e^{i\delta}(1 +i\sin{\alpha})+i\cos{\alpha} \newline
-    -ie^{i\delta}\cos{\alpha}+1-\sin{\alpha}
+    -e^{i\delta}(1 +i\sin{2\alpha})+i\cos{2\alpha} \newline
+    -ie^{i\delta}\cos{2\alpha}+1-\sin{2\alpha}
   \end{bmatrix} \newline  
 \end{aligned}
 $$
 
-$\delta = 2(\varphi+\frac{\pi}{4})$のとき
+$\delta = 2(\varphi+\frac{\pi}{4})$
 
 $$
 J\propto e^{i\varphi}
 \begin{bmatrix}
-  -e^{i\varphi}(1 +i\sin{\alpha})-ie^{-i\varphi}\cos{\alpha} \newline
-  -ie^{i\\varphi}\cos{\alpha}+e^{i\varphi}(\sin{\alpha}-1)
+  -e^{i\varphi}(1 +i\sin{2\alpha})-ie^{-i\varphi}\cos{2\alpha} \newline
+  -ie^{i\varphi}\cos{2\alpha}+e^{i\varphi}(\sin{2\alpha}-1)
 \end{bmatrix}
 $$
+
+$\alpha=\frac{\pi}{4}$
+
+$$
+J\propto e^{i\varphi}
+\begin{bmatrix}
+  -e^{i\varphi}(1+i) \newline
+  0
+\end{bmatrix}
+$$
+
+$\alpha=-\frac{\pi}{4}$
+
+$$
+J\propto e^{i\varphi}
+\begin{bmatrix}
+  -e^{i\varphi}(1-i) \newline
+  -2e^{i\varphi}
+\end{bmatrix}
+$$
+
+## ダイナミック位相
+
+$$
+e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\leftrightarrow
+\begin{bmatrix}
+  \cos{\varphi} \newline
+  \sin{\varphi}
+\end{bmatrix}
+$$
+
+$$
+e^{i\varphi}e^{i\frac{3\pi}{2}}\Bigl(e^{i\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+e^{-i\varphi}
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)\leftrightarrow e^{i\varphi}e^{i\frac{3\pi}{2}}
+\begin{bmatrix}
+  \cos{\varphi} \newline
+  \sin{\varphi}
+\end{bmatrix}
+$$
+
+$$
+(m _ 1, -m _ 2)=(+1, -1) \newline
+(m _ 1, -m _ 2)=(2, 0)
+$$
+
+$$
+e^{i\frac{3\pi}{2}}\Bigl(e^{i2\varphi}
+\begin{bmatrix}
+  1 \newline
+  -i
+\end{bmatrix}+
+\begin{bmatrix}
+  1 \newline
+  i
+\end{bmatrix}\Bigr)\leftrightarrow e^{i\varphi}e^{i\frac{3\pi}{2}}
+\begin{bmatrix}
+  \cos{\varphi} \newline
+  \sin{\varphi}
+\end{bmatrix}
+$$
+
+$$
+e^{i\varphi} \rightarrow e^{i0.9\varphi}, e^{i0.8\varphi}, \cdots
+$$
+
+$$
+e^{i\frac{3\pi}{2}} \rightarrow e^{-i\frac{3\pi}{2}}, e^{i\frac{\pi}{4}} \text{など}
+$$
+
+<!-- 工業においては精密さと時間効率が重要になってくる.特にAFMやLR-AFMという機械の歴史が詳しく説明されていて興味深かった.光では広範囲を高効率に加工できるという利点がある. -->
