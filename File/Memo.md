@@ -8,8 +8,9 @@
   - [表→裏](#表裏)
     - [HWP](#hwp-1)
     - [QWP](#qwp-1)
-- [ベクトルビームの作り方](#ベクトルビームの作り方)
+- [ベクトルビームの作り方(SLMに1回反射)](#ベクトルビームの作り方slmに1回反射)
 - [ダイナミック位相](#ダイナミック位相)
+- [ベクトルビームの作り方(SLMに2回反射)](#ベクトルビームの作り方slmに2回反射)
 
 
 ## 波長板
@@ -185,7 +186,7 @@ J _ {QWP(\theta)}&=
 \end{aligned}
 $$
 
-## ベクトルビームの作り方
+## ベクトルビームの作り方(SLMに1回反射)
 
 <p align="center">
 <img src="https://github.com/sk0ik/Vector_Beam/blob/main/Pic/setup/generate_radial_azimuthal.png" alt="サンプル画像" width="400">
@@ -674,3 +675,134 @@ e^{i\frac{3\pi}{2}} \rightarrow e^{-i\frac{3\pi}{2}}, e^{i\frac{\pi}{4}} \text{�
 $$
 
 <!-- 工業においては精密さと時間効率が重要になってくる.特にAFMやLR-AFMという機械の歴史が詳しく説明されていて興味深かった.光では広範囲を高効率に加工できるという利点がある. -->
+
+## ベクトルビームの作り方(SLMに2回反射)
+
+$$
+\begin{aligned}
+J &= 
+  \begin{bmatrix}
+    1 & -i \newline
+    -i & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 2} & 0 \newline
+    0 & 1
+  \end{bmatrix}e^{i\frac{\pi}{2}}
+  \begin{bmatrix}
+    0 & 1 \newline
+    -1 & 0
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 1} & 0 \newline
+    0 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    1 \newline
+    1
+  \end{bmatrix} \newline
+  &=
+  \begin{bmatrix}
+    1 & -i \newline
+    -i & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 2} & 0 \newline
+    0 & 1
+  \end{bmatrix}e^{i\frac{\pi}{2}}
+  \begin{bmatrix}
+    0 & 1 \newline
+    -1 & 0
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 1} \newline
+    1
+  \end{bmatrix} \newline
+&=
+  \begin{bmatrix}
+    1 & -i \newline
+    -i & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 2} & 0 \newline
+    0 & 1
+  \end{bmatrix}e^{i\frac{\pi}{2}}
+  \begin{bmatrix}
+    1 \newline
+    e^{i\delta _ 1}
+  \end{bmatrix} \newline
+&=e^{i\frac{\pi}{2}}
+  \begin{bmatrix}
+    1 & -i \newline
+    -i & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+    -e^{i\delta _ 2} \newline
+    e^{i\delta _ 1}
+  \end{bmatrix} \newline
+\therefore J &=
+e^{i\frac{\pi}{2}}
+  \begin{bmatrix}
+    -ie^{i\delta _ 1}-e^{i\delta _ 2} \newline
+    e^{i\delta _ 1}+ie^{i\delta _ 2}
+  \end{bmatrix}=e^{i\pi}\Bigl(e^{i\delta _ 1}
+  \begin{bmatrix}
+    1 \newline
+    i
+  \end{bmatrix}+e^{i(\delta _ 2+\frac{\pi}{2})}
+  \begin{bmatrix}
+    1 \newline
+    -i
+  \end{bmatrix}\Bigr)
+\end{aligned}
+$$
+
+もし
+
+$$
+\delta _ 1=\varphi -\pi, \delta _ 2=-(\varphi+\pi)
+$$
+
+なら
+
+$$
+e^{i\varphi}
+  \begin{bmatrix}
+    1 \newline
+    i
+  \end{bmatrix}+e^{i(-\varphi+\frac{\pi}{2})}
+  \begin{bmatrix}
+    1 \newline
+    -i
+  \end{bmatrix}
+$$
+
+$$
+e^{i\varphi}
+  \begin{bmatrix}
+    1 \newline
+    i
+  \end{bmatrix}+e^{-i(\varphi-\frac{\pi}{2})}
+  \begin{bmatrix}
+    1 \newline
+    -i
+  \end{bmatrix}
+$$
+
+$$
+\delta _ 1=\varphi -\pi, \delta _ 2=-\Bigl(\varphi+\frac{3\pi}{2}\Bigr)
+$$
+
+なら
+
+$$
+e^{i\varphi}
+  \begin{bmatrix}
+    1 \newline
+    i
+  \end{bmatrix}+e^{-i\varphi}
+  \begin{bmatrix}
+    1 \newline
+    -i
+  \end{bmatrix}
+$$
